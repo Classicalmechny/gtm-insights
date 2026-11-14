@@ -39,7 +39,7 @@ async function stage1Scrape(K, opts = {}, log = noop) {
   const headers = { 'x-rapidapi-host': 'jsearch.p.rapidapi.com', 'x-rapidapi-key': K.RAPIDAPI_KEY };
   let empty = 0;
   await pMap(queries, async (q) => {
-    const url = \`\${JSEARCH}?query=\${encodeURIComponent(q.role + ' in ' + q.c)}&page=\${q.p}&num_pages=1&country=\${q.c.toLowerCase()}&date_posted=\${datePosted}&employment_types=FULLTIME\`;
+    const url = `${JSEARCH}?query=${encodeURIComponent(q.role + ' in ' + q.c)}&page=${q.p}&num_pages=1&country=${q.c.toLowerCase()}&date_posted=${datePosted}&employment_types=FULLTIME`;
     const r = await httpJson(url, { headers });
     if (!r.ok || !r.json) { log('jsearch.err', { role: q.role, c: q.c, p: q.p, status: r.status }); return; }
     const items = r.json.data || [];
@@ -101,12 +101,12 @@ async function stage1bFilter(K, companies, log = noop) {
     const domain = normDomain(c.employer_website || '');
     let li = normLi(c.employer_linkedin || '');
     if (!li && domain) {
-      const r = await httpJson(\`\${BLITZ}/v2/enrichment/domain-to-linkedin\`, { method: 'POST', headers, body: { domain } });
+      const r = await httpJson(`${BLITZ}/v2/enrichment/domain-to-linkedin`, { method: 'POST', headers, body: { domain } });
       if (r.ok && r.json && r.json.found) li = normLi(r.json.company_linkedin_url || '');
     }
     if (!li) { stats.no_li++; return null; }
 
-    const e = await httpJson(\`\${BLITZ}/v2/enrichment/company\`, { method: 'POST', headers, body: { company_linkedin_url: li } });
+    const e = await httpJson(`${BLITZ}/v2/enrichment/company`, { method: 'POST', headers, body: { company_linkedin_url: li } });
     if (!e.ok || !e.json || !e.json.found) { stats.no_enrich++; return null; }
     const co = e.json.company || e.json;
     const size = (co.size || '').trim();
@@ -199,13 +199,13 @@ async function stage2Dms(K, companies, opts = {}, log = noop) {
     const li = normLi(c.company_linkedin_url || c.employer_linkedin || '');
     if (!li) { stats.no_dm++; return []; }
     let rows = [];
-    const w = await httpJson(\`\${BLITZ}/v2/search/waterfall-icp-keyword\`, { method: 'POST', headers, body: { company_linkedin_url: li, cascade: DM_CASCADE, max_results: perCompany } });
+    const w = await httpJson(`${BLITZ}/v2/search/waterfall-icp-keyword`, { method: 'POST', headers, body: { company_linkedin_url: li, cascade: DM_CASCADE, max_results: perCompany } });
     const wres = (w.ok && w.json && w.json.results) || [];
     if (wres.length) {
       stats.waterfall_hits++;
       rows = wres.slice(0, perCompany).map((r) => mergeDm(c, personFromWaterfall(r), 'waterfall')).filter(Boolean);
     } else {
-      const ef = await httpJson(\`\${BLITZ}/v2/search/employee-finder\`, { method: 'POST', headers, body: { company_linkedin_url: li, job_level: EMP_FINDER_LEVELS, max_results: perCompany, page: 1 } });
+      const ef = await httpJson(`${BLITZ}/v2/search/employee-finder`, { method: 'POST', headers, body: { company_linkedin_url: li, job_level: EMP_FINDER_LEVELS, max_results: perCompany, page: 1 } });
       const eres = (ef.ok && ef.json && ef.json.results) || [];
       if (eres.length) { stats.fallback_hits++; rows = eres.slice(0, perCompany).map((r) => mergeDm(c, personFromEf(r), 'employee_finder')).filter(Boolean); }
       else stats.no_dm++;
@@ -224,7 +224,7 @@ async function stage2Dms(K, companies, opts = {}, log = noop) {
 // ===========================================================================
 async function millionVerify(K, email) {
   if (!K.MILLIONVERIFIER_KEY) return { ok: false, status: '', source: '' };
-  const r = await httpJson(\`https://api.millionverifier.com/api/v3/?api=\${K.MILLIONVERIFIER_KEY}&email=\${encodeURIComponent(email)}&timeout=10\`, { method: 'GET' });
+  const r = await httpJson(`https://api.millionverifier.com/api/v3/?api=${K.MILLIONVERIFIER_KEY}&email=${encodeURIComponent(email)}&timeout=10`, { method: 'GET' });
   if (!r.ok || !r.json) return { ok: false, status: 'error', source: 'millionverifier' };
   const res = (r.json.result || '').toLowerCase(); // ok | catch_all | unknown | invalid | disposable
   return { ok: res === 'ok', status: res, source: 'millionverifier' };
@@ -236,7 +236,7 @@ async function stage3Emails(K, dms, log = noop) {
   const out = await pMap(dms, async (row) => {
     const li = normLi(row.linkedin_url || '');
     if (!li) { stats.dropped_no_email++; return null; }
-    const r = await httpJson(\`\${BLITZ}/v2/enrichment/email\`, { method: 'POST', headers, body: { person_linkedin_url: li } });
+    const r = await httpJson(`${BLITZ}/v2/enrichment/email`, { method: 'POST', headers, body: { person_linkedin_url: li } });
     const email = normEmail((r.json && r.json.email) || '');
     if (!email) { stats.dropped_no_email++; return null; }
     stats.blitz_found++;
@@ -276,7 +276,7 @@ function stage4Personalize(leads, log = noop) {
     l.open_role = open_role;
     l.open_role_category = open_role_category;
     l.job_count = job_count;
-    l.job_count_phrase = job_count > 1 ? \`multiple roles (\${job_count})\` : open_role;
+    l.job_count_phrase = job_count > 1 ? `multiple roles (${job_count})` : open_role;
     stats.categories[open_role_category] = (stats.categories[open_role_category] || 0) + 1;
   }
   log('STAGE4', stats);
@@ -286,16 +286,16 @@ function stage4Personalize(leads, log = noop) {
 // ===========================================================================
 // STAGE 5 — Instantly: ensure campaign (create + 4-email sequence) → upload
 // ===========================================================================
-const SIG = \`<div><br></div><div>{{sendingAccountName}} </div><div>Partnerships {{RANDOM | @TechHive | - TechHive}}</div>\`;
+const SIG = `<div><br></div><div>{{sendingAccountName}} </div><div>Partnerships {{RANDOM | @TechHive | - TechHive}}</div>`;
 const SEQUENCE_STEPS = [
   { delay: 1, subject: '{{open_role}} opening',
-    body: \`<div>{{first_name}}, saw {{company_name}} is hiring for a {{open_role}}. Most companies I talk to say that role takes 2-4 months to fill locally. Meanwhile, the team is stretched thin and delivery slows down.</div><div><br></div><div>We can have a vetted senior {{open_role_category}} engineer embedded in your workflow within 5-10 days. Overlapping US hours, your tools, your standups.</div><div><br></div><div>Would it help to see a couple of profiles?</div>\` + SIG },
+    body: `<div>{{first_name}}, saw {{company_name}} is hiring for a {{open_role}}. Most companies I talk to say that role takes 2-4 months to fill locally. Meanwhile, the team is stretched thin and delivery slows down.</div><div><br></div><div>We can have a vetted senior {{open_role_category}} engineer embedded in your workflow within 5-10 days. Overlapping US hours, your tools, your standups.</div><div><br></div><div>Would it help to see a couple of profiles?</div>` + SIG },
   { delay: 3, subject: '', // threaded reply (no subject)
-    body: \`<div>{{first_name}}, to give you context on how this works. We don't send resumes. We send pre-vetted engineers who've been technically assessed by our delivery team.</div><div><br></div><div>You evaluate them on actual project tasks during a trial period. If the fit isn't right, no commitment.</div>\` + SIG },
+    body: `<div>{{first_name}}, to give you context on how this works. We don't send resumes. We send pre-vetted engineers who've been technically assessed by our delivery team.</div><div><br></div><div>You evaluate them on actual project tasks during a trial period. If the fit isn't right, no commitment.</div>` + SIG },
   { delay: 4, subject: 'engineering hiring alternative',
-    body: \`<div>{{first_name}}, most engineering leaders I talk to have tried recruiters, freelancers, or offshore vendors before finding us. The common complaint is the same. Communication gaps, quality issues, or engineers who disappear.</div><div><br></div><div>We solve that with overlapping hours, real delivery ownership, and founder-led vetting. If you've been burned before, happy to show how we're different.</div>\` + SIG },
+    body: `<div>{{first_name}}, most engineering leaders I talk to have tried recruiters, freelancers, or offshore vendors before finding us. The common complaint is the same. Communication gaps, quality issues, or engineers who disappear.</div><div><br></div><div>We solve that with overlapping hours, real delivery ownership, and founder-led vetting. If you've been burned before, happy to show how we're different.</div>` + SIG },
   { delay: 4, subject: 'quick question',
-    body: \`<div>{{first_name}}, if engineering hiring decisions aren't in your scope, happy to connect with whoever handles technical recruiting or team scaling at {{company_name}}. Either way, thanks.</div>\` + SIG },
+    body: `<div>{{first_name}}, if engineering hiring decisions aren't in your scope, happy to connect with whoever handles technical recruiting or team scaling at {{company_name}}. Either way, thanks.</div>` + SIG },
 ];
 
 function buildCampaignPayload(name, timezone) {
@@ -323,13 +323,13 @@ function buildCampaignPayload(name, timezone) {
 
 /** Find-or-create a campaign by name (idempotent). region = {name, timezone}. */
 async function ensureCampaign(K, region, log = noop) {
-  const H = { Authorization: \`Bearer \${K.INSTANTLY_KEY}\`, 'Content-Type': 'application/json' };
+  const H = { Authorization: `Bearer ${K.INSTANTLY_KEY}`, 'Content-Type': 'application/json' };
   const name = (region && region.name) || CAMPAIGN_NAME;
   const tz = (region && region.timezone) || 'America/Detroit';
   // find existing by exact name (paginate)
   let cursor = null;
   for (let i = 0; i < 20; i++) {
-    const url = \`\${INST}/api/v2/campaigns?limit=100\` + (cursor ? \`&starting_after=\${cursor}\` : '');
+    const url = `${INST}/api/v2/campaigns?limit=100` + (cursor ? `&starting_after=${cursor}` : '');
     const list = await httpJson(url, { headers: H });
     const items = (list.json && list.json.items) || [];
     const found = items.find((c) => c.name === name);
@@ -338,7 +338,7 @@ async function ensureCampaign(K, region, log = noop) {
     if (!cursor || items.length < 100) break;
   }
   // create (status defaults to draft/paused — NOTHING sends until activated + mailboxes assigned)
-  const r = await httpJson(\`\${INST}/api/v2/campaigns\`, { method: 'POST', headers: H, body: buildCampaignPayload(name, tz) });
+  const r = await httpJson(`${INST}/api/v2/campaigns`, { method: 'POST', headers: H, body: buildCampaignPayload(name, tz) });
   if (!r.ok || !r.json || !r.json.id) throw new Error('campaign create failed: ' + r.status + ' ' + r.text.slice(0, 300));
   log('campaign.created', { id: r.json.id, name, timezone: tz });
   return r.json.id;
@@ -367,13 +367,13 @@ async function uploadByRegion(K, leads, log = noop) {
 }
 
 async function fetchExistingEmails(K, campaignId) {
-  const H = { Authorization: \`Bearer \${K.INSTANTLY_KEY}\`, 'Content-Type': 'application/json' };
+  const H = { Authorization: `Bearer ${K.INSTANTLY_KEY}`, 'Content-Type': 'application/json' };
   const emails = new Set();
   let cursor = null;
   for (let i = 0; i < 50; i++) {
     const body = { campaign: campaignId, limit: 100 };
     if (cursor) body.starting_after = cursor;
-    const r = await httpJson(\`\${INST}/api/v2/leads/list\`, { method: 'POST', headers: H, body });
+    const r = await httpJson(`${INST}/api/v2/leads/list`, { method: 'POST', headers: H, body });
     const items = (r.json && (r.json.items || r.json.data)) || [];
     for (const l of items) { const e = normEmail(l.email); if (e) emails.add(e); }
     cursor = r.json && (r.json.next_starting_after || r.json.next_cursor);
@@ -383,7 +383,7 @@ async function fetchExistingEmails(K, campaignId) {
 }
 
 async function stage5Upload(K, leads, campaignId, log = noop) {
-  const H = { Authorization: \`Bearer \${K.INSTANTLY_KEY}\`, 'Content-Type': 'application/json' };
+  const H = { Authorization: `Bearer ${K.INSTANTLY_KEY}`, 'Content-Type': 'application/json' };
   const existing = await fetchExistingEmails(K, campaignId);
   const stats = { input: leads.length, uploaded: 0, skipped_existing: 0, failed: 0, campaign: campaignId, existing_before: existing.size };
   const uploaded = [];
@@ -421,7 +421,7 @@ async function stage5Upload(K, leads, campaignId, log = noop) {
         email_risk: lead.email_risk || '',
       },
     };
-    const r = await httpJson(\`\${INST}/api/v2/leads\`, { method: 'POST', headers: H, body: payload });
+    const r = await httpJson(`${INST}/api/v2/leads`, { method: 'POST', headers: H, body: payload });
     if (r.ok) { stats.uploaded++; existing.add(email); uploaded.push(Object.assign({}, lead, { instantly_lead_id: (r.json && r.json.id) || '' })); }
     else { stats.failed++; log('upload.fail', { email, status: r.status, body: r.text.slice(0, 200) }); }
   }
