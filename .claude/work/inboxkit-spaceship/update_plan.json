@@ -1,0 +1,662 @@
+[
+  {
+    "domain": "aiyna.info",
+    "current": [
+      "eve.ns.cloudflare.com",
+      "morgan.ns.cloudflare.com"
+    ],
+    "target": [
+      "gene.ns.cloudflare.com",
+      "yisroel.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "ayena.info",
+    "current": [
+      "coleman.ns.cloudflare.com",
+      "rafe.ns.cloudflare.com"
+    ],
+    "target": [
+      "asa.ns.cloudflare.com",
+      "miguel.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynaapp.info",
+    "current": [
+      "launch1.spaceship.net",
+      "launch2.spaceship.net"
+    ],
+    "target": [
+      "carl.ns.cloudflare.com",
+      "malavika.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynahq.com",
+    "current": [
+      "isla.ns.cloudflare.com",
+      "jerry.ns.cloudflare.com"
+    ],
+    "target": [
+      "laila.ns.cloudflare.com",
+      "robert.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynahq.info",
+    "current": [
+      "launch1.spaceship.net",
+      "launch2.spaceship.net"
+    ],
+    "target": [
+      "amanda.ns.cloudflare.com",
+      "emerson.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynalab.info",
+    "current": [
+      "launch1.spaceship.net",
+      "launch2.spaceship.net"
+    ],
+    "target": [
+      "carla.ns.cloudflare.com",
+      "finley.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynapro.com",
+    "current": [
+      "eve.ns.cloudflare.com",
+      "morgan.ns.cloudflare.com"
+    ],
+    "target": [
+      "kanye.ns.cloudflare.com",
+      "vivienne.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynapro.info",
+    "current": [
+      "hayes.ns.cloudflare.com",
+      "janet.ns.cloudflare.com"
+    ],
+    "target": [
+      "gigi.ns.cloudflare.com",
+      "norman.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynas.info",
+    "current": [
+      "aliza.ns.cloudflare.com",
+      "braden.ns.cloudflare.com"
+    ],
+    "target": [
+      "celine.ns.cloudflare.com",
+      "houston.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "aynna.info",
+    "current": [
+      "kyrie.ns.cloudflare.com",
+      "sneh.ns.cloudflare.com"
+    ],
+    "target": [
+      "dan.ns.cloudflare.com",
+      "emily.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaayna.com",
+    "current": [
+      "graham.ns.cloudflare.com",
+      "paityn.ns.cloudflare.com"
+    ],
+    "target": [
+      "kallie.ns.cloudflare.com",
+      "mack.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaayna.info",
+    "current": [
+      "launch1.spaceship.net",
+      "launch2.spaceship.net"
+    ],
+    "target": [
+      "ada.ns.cloudflare.com",
+      "jihoon.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaena.com",
+    "current": [
+      "armfazh.ns.cloudflare.com",
+      "kami.ns.cloudflare.com"
+    ],
+    "target": [
+      "laura.ns.cloudflare.com",
+      "moura.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaena.info",
+    "current": [
+      "graham.ns.cloudflare.com",
+      "paityn.ns.cloudflare.com"
+    ],
+    "target": [
+      "vick.ns.cloudflare.com",
+      "zita.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaina.info",
+    "current": [
+      "donovan.ns.cloudflare.com",
+      "mimi.ns.cloudflare.com"
+    ],
+    "target": [
+      "cesar.ns.cloudflare.com",
+      "nadia.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynaclub.com",
+    "current": [
+      "ivy.ns.cloudflare.com",
+      "kanye.ns.cloudflare.com"
+    ],
+    "target": [
+      "norm.ns.cloudflare.com",
+      "ullis.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynaclub.info",
+    "current": [
+      "howard.ns.cloudflare.com",
+      "jocelyn.ns.cloudflare.com"
+    ],
+    "target": [
+      "lucy.ns.cloudflare.com",
+      "milan.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynagroup.com",
+    "current": [
+      "chris.ns.cloudflare.com",
+      "julissa.ns.cloudflare.com"
+    ],
+    "target": [
+      "elinore.ns.cloudflare.com",
+      "giancarlo.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynagroup.info",
+    "current": [
+      "journey.ns.cloudflare.com",
+      "milan.ns.cloudflare.com"
+    ],
+    "target": [
+      "celine.ns.cloudflare.com",
+      "houston.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynah.com",
+    "current": [
+      "alex.ns.cloudflare.com",
+      "erin.ns.cloudflare.com"
+    ],
+    "target": [
+      "karsyn.ns.cloudflare.com",
+      "yisroel.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynah.info",
+    "current": [
+      "beau.ns.cloudflare.com",
+      "christina.ns.cloudflare.com"
+    ],
+    "target": [
+      "henry.ns.cloudflare.com",
+      "marlowe.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynahq.info",
+    "current": [
+      "chelsea.ns.cloudflare.com",
+      "ivan.ns.cloudflare.com"
+    ],
+    "target": [
+      "alexa.ns.cloudflare.com",
+      "lloyd.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynahub.com",
+    "current": [
+      "jewel.ns.cloudflare.com",
+      "leonidas.ns.cloudflare.com"
+    ],
+    "target": [
+      "linda.ns.cloudflare.com",
+      "rob.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynahub.info",
+    "current": [
+      "luciana.ns.cloudflare.com",
+      "ruben.ns.cloudflare.com"
+    ],
+    "target": [
+      "jo.ns.cloudflare.com",
+      "theo.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getayna.info",
+    "current": [
+      "cory.ns.cloudflare.com",
+      "millie.ns.cloudflare.com"
+    ],
+    "target": [
+      "riya.ns.cloudflare.com",
+      "ryan.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynaio.com",
+    "current": [
+      "kolton.ns.cloudflare.com",
+      "tia.ns.cloudflare.com"
+    ],
+    "target": [
+      "dave.ns.cloudflare.com",
+      "imani.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynaio.info",
+    "current": [
+      "leland.ns.cloudflare.com",
+      "summer.ns.cloudflare.com"
+    ],
+    "target": [
+      "felicity.ns.cloudflare.com",
+      "joan.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynalab.com",
+    "current": [
+      "amber.ns.cloudflare.com",
+      "kanye.ns.cloudflare.com"
+    ],
+    "target": [
+      "adele.ns.cloudflare.com",
+      "algin.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynalab.info",
+    "current": [
+      "celeste.ns.cloudflare.com",
+      "jermaine.ns.cloudflare.com"
+    ],
+    "target": [
+      "hal.ns.cloudflare.com",
+      "heather.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynamedia.com",
+    "current": [
+      "patrick.ns.cloudflare.com",
+      "violet.ns.cloudflare.com"
+    ],
+    "target": [
+      "carrera.ns.cloudflare.com",
+      "cleo.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynamedia.info",
+    "current": [
+      "gabriella.ns.cloudflare.com",
+      "marty.ns.cloudflare.com"
+    ],
+    "target": [
+      "ganz.ns.cloudflare.com",
+      "keyla.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynanow.com",
+    "current": [
+      "beau.ns.cloudflare.com",
+      "christina.ns.cloudflare.com"
+    ],
+    "target": [
+      "kai.ns.cloudflare.com",
+      "raphaela.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynanow.info",
+    "current": [
+      "amanda.ns.cloudflare.com",
+      "igor.ns.cloudflare.com"
+    ],
+    "target": [
+      "andy.ns.cloudflare.com",
+      "sara.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynapro.com",
+    "current": [
+      "ken.ns.cloudflare.com",
+      "raphaela.ns.cloudflare.com"
+    ],
+    "target": [
+      "dion.ns.cloudflare.com",
+      "heidi.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynapro.info",
+    "current": [
+      "ajay.ns.cloudflare.com",
+      "liv.ns.cloudflare.com"
+    ],
+    "target": [
+      "cesar.ns.cloudflare.com",
+      "nadia.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynas.com",
+    "current": [
+      "amos.ns.cloudflare.com",
+      "blakely.ns.cloudflare.com"
+    ],
+    "target": [
+      "bailey.ns.cloudflare.com",
+      "rustam.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynas.info",
+    "current": [
+      "cris.ns.cloudflare.com",
+      "leah.ns.cloudflare.com"
+    ],
+    "target": [
+      "elma.ns.cloudflare.com",
+      "grant.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynazone.com",
+    "current": [
+      "amanda.ns.cloudflare.com",
+      "igor.ns.cloudflare.com"
+    ],
+    "target": [
+      "kai.ns.cloudflare.com",
+      "pearl.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynazone.info",
+    "current": [
+      "jim.ns.cloudflare.com",
+      "melinda.ns.cloudflare.com"
+    ],
+    "target": [
+      "henrik.ns.cloudflare.com",
+      "rosalie.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getaynna.info",
+    "current": [
+      "launch1.spaceship.net",
+      "launch2.spaceship.net"
+    ],
+    "target": [
+      "coleman.ns.cloudflare.com",
+      "daisy.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getgetayna.com",
+    "current": [
+      "eloise.ns.cloudflare.com",
+      "sam.ns.cloudflare.com"
+    ],
+    "target": [
+      "margot.ns.cloudflare.com",
+      "sullivan.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "getgetayna.info",
+    "current": [
+      "katja.ns.cloudflare.com",
+      "matt.ns.cloudflare.com"
+    ],
+    "target": [
+      "elisabeth.ns.cloudflare.com",
+      "leonidas.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "gettayna.info",
+    "current": [
+      "laila.ns.cloudflare.com",
+      "sri.ns.cloudflare.com"
+    ],
+    "target": [
+      "ganz.ns.cloudflare.com",
+      "keyla.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "gogetayna.com",
+    "current": [
+      "gina.ns.cloudflare.com",
+      "nikon.ns.cloudflare.com"
+    ],
+    "target": [
+      "natasha.ns.cloudflare.com",
+      "watson.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "gogetayna.info",
+    "current": [
+      "jermaine.ns.cloudflare.com",
+      "melany.ns.cloudflare.com"
+    ],
+    "target": [
+      "linda.ns.cloudflare.com",
+      "rob.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "joingetayna.com",
+    "current": [
+      "ashley.ns.cloudflare.com",
+      "dilbert.ns.cloudflare.com"
+    ],
+    "target": [
+      "dee.ns.cloudflare.com",
+      "elmo.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "joingetayna.info",
+    "current": [
+      "algin.ns.cloudflare.com",
+      "natasha.ns.cloudflare.com"
+    ],
+    "target": [
+      "gigi.ns.cloudflare.com",
+      "norman.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "mygetayna.com",
+    "current": [
+      "cass.ns.cloudflare.com",
+      "seamus.ns.cloudflare.com"
+    ],
+    "target": [
+      "deborah.ns.cloudflare.com",
+      "marty.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "mygetayna.info",
+    "current": [
+      "jack.ns.cloudflare.com",
+      "mallory.ns.cloudflare.com"
+    ],
+    "target": [
+      "carl.ns.cloudflare.com",
+      "malavika.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "thegetayna.com",
+    "current": [
+      "colette.ns.cloudflare.com",
+      "viddy.ns.cloudflare.com"
+    ],
+    "target": [
+      "eloise.ns.cloudflare.com",
+      "mcgrory.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "thegetayna.info",
+    "current": [
+      "opal.ns.cloudflare.com",
+      "uriah.ns.cloudflare.com"
+    ],
+    "target": [
+      "agustin.ns.cloudflare.com",
+      "melina.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "trygetayna.com",
+    "current": [
+      "ignat.ns.cloudflare.com",
+      "rosalyn.ns.cloudflare.com"
+    ],
+    "target": [
+      "quincy.ns.cloudflare.com",
+      "veda.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "trygetayna.info",
+    "current": [
+      "eve.ns.cloudflare.com",
+      "morgan.ns.cloudflare.com"
+    ],
+    "target": [
+      "gigi.ns.cloudflare.com",
+      "norman.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "usegetayna.com",
+    "current": [
+      "coleman.ns.cloudflare.com",
+      "rafe.ns.cloudflare.com"
+    ],
+    "target": [
+      "felicity.ns.cloudflare.com",
+      "joan.ns.cloudflare.com"
+    ],
+    "update": true
+  },
+  {
+    "domain": "usegetayna.info",
+    "current": [
+      "dante.ns.cloudflare.com",
+      "galilea.ns.cloudflare.com"
+    ],
+    "target": [
+      "nataly.ns.cloudflare.com",
+      "nolan.ns.cloudflare.com"
+    ],
+    "update": true
+  }
+]

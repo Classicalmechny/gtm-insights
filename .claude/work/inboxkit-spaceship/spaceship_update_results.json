@@ -1,0 +1,552 @@
+[
+  {
+    "domain": "aiyna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"gene.ns.cloudflare.com\",\"yisroel.ns.cloudflare.com\"]}",
+    "target": [
+      "gene.ns.cloudflare.com",
+      "yisroel.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "ayena.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"asa.ns.cloudflare.com\",\"miguel.ns.cloudflare.com\"]}",
+    "target": [
+      "asa.ns.cloudflare.com",
+      "miguel.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynaapp.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"carl.ns.cloudflare.com\",\"malavika.ns.cloudflare.com\"]}",
+    "target": [
+      "carl.ns.cloudflare.com",
+      "malavika.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynahq.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"laila.ns.cloudflare.com\",\"robert.ns.cloudflare.com\"]}",
+    "target": [
+      "laila.ns.cloudflare.com",
+      "robert.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynahq.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"amanda.ns.cloudflare.com\",\"emerson.ns.cloudflare.com\"]}",
+    "target": [
+      "amanda.ns.cloudflare.com",
+      "emerson.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynalab.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"carla.ns.cloudflare.com\",\"finley.ns.cloudflare.com\"]}",
+    "target": [
+      "carla.ns.cloudflare.com",
+      "finley.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynapro.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"kanye.ns.cloudflare.com\",\"vivienne.ns.cloudflare.com\"]}",
+    "target": [
+      "kanye.ns.cloudflare.com",
+      "vivienne.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynapro.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"gigi.ns.cloudflare.com\",\"norman.ns.cloudflare.com\"]}",
+    "target": [
+      "gigi.ns.cloudflare.com",
+      "norman.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynas.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"celine.ns.cloudflare.com\",\"houston.ns.cloudflare.com\"]}",
+    "target": [
+      "celine.ns.cloudflare.com",
+      "houston.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "aynna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"dan.ns.cloudflare.com\",\"emily.ns.cloudflare.com\"]}",
+    "target": [
+      "dan.ns.cloudflare.com",
+      "emily.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"kallie.ns.cloudflare.com\",\"mack.ns.cloudflare.com\"]}",
+    "target": [
+      "kallie.ns.cloudflare.com",
+      "mack.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"ada.ns.cloudflare.com\",\"jihoon.ns.cloudflare.com\"]}",
+    "target": [
+      "ada.ns.cloudflare.com",
+      "jihoon.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaena.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"laura.ns.cloudflare.com\",\"moura.ns.cloudflare.com\"]}",
+    "target": [
+      "laura.ns.cloudflare.com",
+      "moura.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaena.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"vick.ns.cloudflare.com\",\"zita.ns.cloudflare.com\"]}",
+    "target": [
+      "vick.ns.cloudflare.com",
+      "zita.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaina.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"cesar.ns.cloudflare.com\",\"nadia.ns.cloudflare.com\"]}",
+    "target": [
+      "cesar.ns.cloudflare.com",
+      "nadia.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynaclub.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"norm.ns.cloudflare.com\",\"ullis.ns.cloudflare.com\"]}",
+    "target": [
+      "norm.ns.cloudflare.com",
+      "ullis.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynaclub.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"lucy.ns.cloudflare.com\",\"milan.ns.cloudflare.com\"]}",
+    "target": [
+      "lucy.ns.cloudflare.com",
+      "milan.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynagroup.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"elinore.ns.cloudflare.com\",\"giancarlo.ns.cloudflare.com\"]}",
+    "target": [
+      "elinore.ns.cloudflare.com",
+      "giancarlo.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynagroup.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"celine.ns.cloudflare.com\",\"houston.ns.cloudflare.com\"]}",
+    "target": [
+      "celine.ns.cloudflare.com",
+      "houston.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynah.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"karsyn.ns.cloudflare.com\",\"yisroel.ns.cloudflare.com\"]}",
+    "target": [
+      "karsyn.ns.cloudflare.com",
+      "yisroel.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynah.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"henry.ns.cloudflare.com\",\"marlowe.ns.cloudflare.com\"]}",
+    "target": [
+      "henry.ns.cloudflare.com",
+      "marlowe.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynahq.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"alexa.ns.cloudflare.com\",\"lloyd.ns.cloudflare.com\"]}",
+    "target": [
+      "alexa.ns.cloudflare.com",
+      "lloyd.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynahub.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"linda.ns.cloudflare.com\",\"rob.ns.cloudflare.com\"]}",
+    "target": [
+      "linda.ns.cloudflare.com",
+      "rob.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynahub.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"jo.ns.cloudflare.com\",\"theo.ns.cloudflare.com\"]}",
+    "target": [
+      "jo.ns.cloudflare.com",
+      "theo.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"riya.ns.cloudflare.com\",\"ryan.ns.cloudflare.com\"]}",
+    "target": [
+      "riya.ns.cloudflare.com",
+      "ryan.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynaio.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"dave.ns.cloudflare.com\",\"imani.ns.cloudflare.com\"]}",
+    "target": [
+      "dave.ns.cloudflare.com",
+      "imani.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynaio.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"felicity.ns.cloudflare.com\",\"joan.ns.cloudflare.com\"]}",
+    "target": [
+      "felicity.ns.cloudflare.com",
+      "joan.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynalab.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"adele.ns.cloudflare.com\",\"algin.ns.cloudflare.com\"]}",
+    "target": [
+      "adele.ns.cloudflare.com",
+      "algin.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynalab.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"hal.ns.cloudflare.com\",\"heather.ns.cloudflare.com\"]}",
+    "target": [
+      "hal.ns.cloudflare.com",
+      "heather.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynamedia.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"carrera.ns.cloudflare.com\",\"cleo.ns.cloudflare.com\"]}",
+    "target": [
+      "carrera.ns.cloudflare.com",
+      "cleo.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynamedia.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"ganz.ns.cloudflare.com\",\"keyla.ns.cloudflare.com\"]}",
+    "target": [
+      "ganz.ns.cloudflare.com",
+      "keyla.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynanow.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"kai.ns.cloudflare.com\",\"raphaela.ns.cloudflare.com\"]}",
+    "target": [
+      "kai.ns.cloudflare.com",
+      "raphaela.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynanow.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"andy.ns.cloudflare.com\",\"sara.ns.cloudflare.com\"]}",
+    "target": [
+      "andy.ns.cloudflare.com",
+      "sara.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynapro.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"dion.ns.cloudflare.com\",\"heidi.ns.cloudflare.com\"]}",
+    "target": [
+      "dion.ns.cloudflare.com",
+      "heidi.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynapro.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"cesar.ns.cloudflare.com\",\"nadia.ns.cloudflare.com\"]}",
+    "target": [
+      "cesar.ns.cloudflare.com",
+      "nadia.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynas.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"bailey.ns.cloudflare.com\",\"rustam.ns.cloudflare.com\"]}",
+    "target": [
+      "bailey.ns.cloudflare.com",
+      "rustam.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynas.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"elma.ns.cloudflare.com\",\"grant.ns.cloudflare.com\"]}",
+    "target": [
+      "elma.ns.cloudflare.com",
+      "grant.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynazone.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"kai.ns.cloudflare.com\",\"pearl.ns.cloudflare.com\"]}",
+    "target": [
+      "kai.ns.cloudflare.com",
+      "pearl.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynazone.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"henrik.ns.cloudflare.com\",\"rosalie.ns.cloudflare.com\"]}",
+    "target": [
+      "henrik.ns.cloudflare.com",
+      "rosalie.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getaynna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"coleman.ns.cloudflare.com\",\"daisy.ns.cloudflare.com\"]}",
+    "target": [
+      "coleman.ns.cloudflare.com",
+      "daisy.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getgetayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"margot.ns.cloudflare.com\",\"sullivan.ns.cloudflare.com\"]}",
+    "target": [
+      "margot.ns.cloudflare.com",
+      "sullivan.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "getgetayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"elisabeth.ns.cloudflare.com\",\"leonidas.ns.cloudflare.com\"]}",
+    "target": [
+      "elisabeth.ns.cloudflare.com",
+      "leonidas.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "gettayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"ganz.ns.cloudflare.com\",\"keyla.ns.cloudflare.com\"]}",
+    "target": [
+      "ganz.ns.cloudflare.com",
+      "keyla.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "gogetayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"natasha.ns.cloudflare.com\",\"watson.ns.cloudflare.com\"]}",
+    "target": [
+      "natasha.ns.cloudflare.com",
+      "watson.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "gogetayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"linda.ns.cloudflare.com\",\"rob.ns.cloudflare.com\"]}",
+    "target": [
+      "linda.ns.cloudflare.com",
+      "rob.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "joingetayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"dee.ns.cloudflare.com\",\"elmo.ns.cloudflare.com\"]}",
+    "target": [
+      "dee.ns.cloudflare.com",
+      "elmo.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "joingetayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"gigi.ns.cloudflare.com\",\"norman.ns.cloudflare.com\"]}",
+    "target": [
+      "gigi.ns.cloudflare.com",
+      "norman.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "mygetayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"deborah.ns.cloudflare.com\",\"marty.ns.cloudflare.com\"]}",
+    "target": [
+      "deborah.ns.cloudflare.com",
+      "marty.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "mygetayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"carl.ns.cloudflare.com\",\"malavika.ns.cloudflare.com\"]}",
+    "target": [
+      "carl.ns.cloudflare.com",
+      "malavika.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "thegetayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"eloise.ns.cloudflare.com\",\"mcgrory.ns.cloudflare.com\"]}",
+    "target": [
+      "eloise.ns.cloudflare.com",
+      "mcgrory.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "thegetayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"agustin.ns.cloudflare.com\",\"melina.ns.cloudflare.com\"]}",
+    "target": [
+      "agustin.ns.cloudflare.com",
+      "melina.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "trygetayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"quincy.ns.cloudflare.com\",\"veda.ns.cloudflare.com\"]}",
+    "target": [
+      "quincy.ns.cloudflare.com",
+      "veda.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "trygetayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"gigi.ns.cloudflare.com\",\"norman.ns.cloudflare.com\"]}",
+    "target": [
+      "gigi.ns.cloudflare.com",
+      "norman.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "usegetayna.com",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"felicity.ns.cloudflare.com\",\"joan.ns.cloudflare.com\"]}",
+    "target": [
+      "felicity.ns.cloudflare.com",
+      "joan.ns.cloudflare.com"
+    ]
+  },
+  {
+    "domain": "usegetayna.info",
+    "code": 200,
+    "ok": true,
+    "response": "{\"provider\":\"custom\",\"hosts\":[\"nataly.ns.cloudflare.com\",\"nolan.ns.cloudflare.com\"]}",
+    "target": [
+      "nataly.ns.cloudflare.com",
+      "nolan.ns.cloudflare.com"
+    ]
+  }
+]
