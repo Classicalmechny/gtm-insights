@@ -1,0 +1,29 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Playwright local state (regenerable, not code)
+.playwright-mcp/
+
+# Local Claude Code cache
+.cache/
+
+# Node
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+
+# Per-client secrets (API keys live in client .env, never committed)
+clients/**/.env
+
+# Per-run output (CSVs, intermediate JSON, run.log) — regenerable
+clients/**/output/
