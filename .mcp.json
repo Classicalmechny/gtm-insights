@@ -1,0 +1,29 @@
+{
+  "_doc": "Project-scoped MCP servers — auto-loaded by Claude Code when you open this repo. API keys are NOT stored here: set RAPIDAPI_LINKEDIN_BULK_KEY and RAPIDAPI_JSEARCH_KEY in your environment (or ~/.claude.json for user scope). Add new MCPs here so teammates get them on next `git pull`.",
+  "mcpServers": {
+    "rapidapi-linkedin-bulk": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.rapidapi.com",
+        "--header",
+        "x-api-host: realtime-linkedin-bulk-data.p.rapidapi.com",
+        "--header",
+        "x-api-key: ${RAPIDAPI_LINKEDIN_BULK_KEY}"
+      ]
+    },
+    "rapidapi-jsearch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.rapidapi.com",
+        "--header",
+        "x-api-host: jsearch.p.rapidapi.com",
+        "--header",
+        "x-api-key: ${RAPIDAPI_JSEARCH_KEY}"
+      ]
+    }
+  }
+}
