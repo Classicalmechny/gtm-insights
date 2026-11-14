@@ -1,0 +1,90 @@
+Total accounts: 269
+
+NEW zapmail (created 2026-04-18, tag 'Zapmail 18/04/2026', SKIP): 51
+OLD zapmail (Gmail/Outlook, other dates, tag 'zapmail', SPAM-TEST): 100
+Untagged SMTP/private server (DELETE candidates): 118
+Other (unclassified): 0
+
+Type breakdown across ALL accounts:
+  GMAIL: 151
+  SMTP: 118
+
+Creation date breakdown for non-SMTP accounts:
+  2025-08-03: 100
+  2026-04-18: 51
+
+Domain breakdown for OLD zapmail (spam-test candidates):
+  allcatsy.com: 4
+  getcatsypim.com: 3
+  catsyone.com: 3
+  bestcatsy.com: 3
+  meetcatsy.com: 3
+  quickcatsydam.com: 3
+  catsydam.com: 3
+  supercatsyhub.com: 3
+  catsysaas.com: 3
+  lovecatsypim.com: 3
+  catsydata.com: 3
+  knowcatsy.com: 3
+  trustcatsydam.com: 3
+  trycatsycloud.com: 3
+  trycatsydam.com: 3
+  teamcatsyapp.com: 3
+  gocatsytech.com: 3
+  primecatsytech.com: 3
+  topcatsypro.com: 3
+  catsymax.com: 3
+  joincatsy.com: 3
+  hellocatsy.com: 3
+  easycatsy.com: 3
+  choosecatsy.com: 3
+  getcatsytools.com: 3
+  simplecatsytech.com: 3
+  smartcatsypim.com: 3
+  catsyway.com: 3
+  procatsyapp.com: 3
+  usecatsypro.com: 3
+  mycatsyhub.com: 3
+  wearecatsypim.com: 3
+  powercatsypro.com: 3
+
+Domain breakdown for UNTAGGED SMTP/private (delete candidates):
+  catsyadminpanel.com: 4
+  catsylaunchpad.com: 4
+  catsyengine.com: 4
+  catsyidea.com: 4
+  catsyoperations.com: 4
+  catsypanel.com: 4
+  catsyreach.com: 4
+  catsyaccelerate.com: 3
+  catsyai.com: 3
+  catsyautomate.com: 3
+  catsycode.com: 3
+  catsybuild.com: 3
+  catsybuilder.com: 3
+  catsycreative.com: 3
+  catsygo.com: 3
+  catsyedge.com: 3
+  catsymarketing.com: 3
+  catsyitemsync.com: 3
+  catsylaunch.com: 3
+  catsycatalog.com: 3
+  catsycore.com: 3
+  catsyflow.com: 3
+  catsynexus.com: 3
+  catsyproduct.com: 3
+  catsyscale.com: 3
+  catsystack.com: 3
+  catsystream.com: 3
+  catsystudiohub.com: 3
+  catsysyndication.com: 3
+  catsyvault.com: 3
+  catsytoolbox.com: 3
+  catsyventures.com: 3
+  catsyproductsync.com: 3
+  catsycamp.com: 2
+  catsydrive.com: 2
+  catsygrowth.com: 2
+  catsyinsight.com: 2
+  catsyitemhub.com: 2
+  catsystrategy.com: 2
