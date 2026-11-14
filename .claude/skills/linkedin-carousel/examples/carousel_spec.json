@@ -1,0 +1,134 @@
+{
+  "_comment": "Reference carousel spec showing every template type in use. Bob can read this as a starting point.",
+  "topic_slug": "claude-code-skills-agency",
+  "carousel_title": "10 Claude Code skills running my $600K/mo agency",
+  "slide_count": 9,
+  "slides": [
+    {
+      "slide_number": 1,
+      "template": "cover",
+      "headline_pre": "10 Claude Code Skills",
+      "headline_highlight": "Running My $600K/mo",
+      "headline_post": "Agency",
+      "use_photo": true,
+      "background_image": "assets/cover-bg.png"
+    },
+    {
+      "slide_number": 2,
+      "template": "intro",
+      "section_pill": "THE STACK",
+      "section_meta": "5 BUCKETS · 10 SKILLS",
+      "headline_pre": "Install skills, commands, agents, and components in",
+      "headline_highlight": "one command",
+      "items": [
+        {"number": "01", "title": "COLD PIPELINE", "meta": "4 SKILLS"},
+        {"number": "02", "title": "CRM, SCRIPTED", "meta": "1 SKILL"},
+        {"number": "03", "title": "CONVERSION LAB", "meta": "2 SKILLS"},
+        {"number": "04", "title": "CONTENT MACHINE", "meta": "2 SKILLS"},
+        {"number": "05", "title": "THE META FLEX", "meta": "1 SKILL", "starred": true}
+      ]
+    },
+    {
+      "slide_number": 3,
+      "template": "section_dark",
+      "section_pill_number": "01",
+      "section_pill_label": "COLD PIPELINE",
+      "headline": "The cold email engine.",
+      "subhead": "4 skills. Zero ICP to campaigns live in Bison.",
+      "cards": [
+        {"number": "01", "title": "Cold Email Strategy", "body": "ICP + offer + messaging angles from transcripts"},
+        {"number": "02", "title": "Cold Email Copywriting", "body": "4-email sequences, deliverability baked in"},
+        {"number": "03", "title": "Cold Email A/B Testing", "body": "Pre-launch variants. Post-launch z-test winners."},
+        {"number": "04", "title": "Cold Email Deploy", "body": "9-gate launch checklist → Bison or Instantly"}
+      ],
+      "cta": "THIS BUCKET PRINTS THE PIPELINE."
+    },
+    {
+      "slide_number": 4,
+      "template": "terminal",
+      "section_pill_number": "02",
+      "section_pill_label": "CRM, SCRIPTED",
+      "headline": "The CRM, scripted.",
+      "subhead": "One skill. Your whole GoHighLevel stack under your cursor.",
+      "tool_card": {
+        "icon_emoji": "📈",
+        "title": "GoHighLevel CLI",
+        "body": "Contacts, opportunities, workflows, payments, email. All via API."
+      },
+      "terminal_lines": [
+        {"type": "command", "text": "ghl contacts create <span class=\"term-flag\">--tag \"sql\"</span>"},
+        {"type": "success", "text": "847 contacts synced in 3.2s"},
+        {"type": "command", "text": "ghl workflow trigger onboarding_v4"},
+        {"type": "success", "text": "Workflow live. 0 clicks required."}
+      ],
+      "cta": "NO MORE CLICKING. JUST TYPING WHAT YOU WANT."
+    },
+    {
+      "slide_number": 5,
+      "template": "section_dark",
+      "section_pill_number": "03",
+      "section_pill_label": "CONVERSION LAB",
+      "headline": "The conversion lab.",
+      "subhead": "Two skills. Clicks become closed deals.",
+      "cards": [
+        {"number": "06", "title": "A/B Testing Suite", "body": "24 hypotheses. Next.js + Supabase. Z-test calls the winner."},
+        {"number": "07", "title": "PostHog Heatmap Analyzer", "body": "Rage clicks become PIE-scored test ideas"}
+      ],
+      "cta": "EVERY PAGE I RUN, I TEST. PERIOD."
+    },
+    {
+      "slide_number": 6,
+      "template": "section_light",
+      "section_pill_number": "04",
+      "section_pill_label": "CONTENT MACHINE",
+      "headline": "The content machine.",
+      "subhead": "Top-of-funnel on autopilot.",
+      "cards": [
+        {"number": "08", "title": "Content Research", "body": "Competitor scrape + outlier analysis + scored ideas"},
+        {"number": "09", "title": "Brand Voice", "body": "Auto-invoked by every writing skill. Sounds like me."}
+      ],
+      "cta": "IT WRITES IN MY VOICE. NOT A GENERIC AI ONE."
+    },
+    {
+      "slide_number": 7,
+      "template": "section_dark",
+      "section_pill_number": "05",
+      "section_pill_label": "THE META FLEX ★",
+      "headline_pre": "The skill that improves the",
+      "headline_highlight": "other 9.",
+      "subhead": "This is the cheat code nobody's talking about.",
+      "cards": [
+        {"number": "10", "title": "Autolearn", "body": "Skills that improve themselves. Eval loop stolen from Karpathy's autoresearch."}
+      ],
+      "cta": "MY STACK GETS BETTER WHILE I SLEEP."
+    },
+    {
+      "slide_number": 8,
+      "template": "lead_magnet",
+      "section_pill_icon": "★",
+      "section_pill_label": "ONE COMMAND. FULL STACK.",
+      "headline_pre": "All 10 skills. One place:",
+      "headline_highlight": "AI AUTOMATION INSIDERS.",
+      "benefits_box": {
+        "label": "MEMBERS GET",
+        "text": "Every Exclusive skill. Install in one command. Private ones too."
+      },
+      "terminal_lines": [
+        {"type": "command", "text": "curl yoursite.com/install | bash"},
+        {"type": "success", "text": "autolearn · autoimprove · gohighlevel-cli · +63"}
+      ]
+    },
+    {
+      "slide_number": 9,
+      "template": "cta_close",
+      "keyword": "AIA",
+      "instruction_lines": [
+        {"text": "and I'll DM you the Insider Link"},
+        {"text": "Every skill installs in ", "highlight_pink": false},
+        {"text": "one command", "highlight_pink": true}
+      ],
+      "background_image": "assets/cover-bg.png",
+      "proof_image": "assets/community-proof.png"
+    }
+  ]
+}

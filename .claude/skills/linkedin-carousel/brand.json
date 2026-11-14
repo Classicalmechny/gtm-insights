@@ -1,0 +1,64 @@
+{
+  "_comment": "Edit this file once with your real handle, photo path, and logo path. The skill reads it on every render.",
+
+  "handle": "@YOUR_HANDLE_HERE",
+  "name": "Your Name",
+  "tagline": "What you do in 5 words",
+
+  "colors": {
+    "accent": "#FF1F5A",
+    "accent_glow": "#FF1F5A",
+    "accent_dark": "#C8164A",
+    "dark": "#0A1532",
+    "dark_secondary": "#0E1B3D",
+    "light_top": "#E8F0FB",
+    "light_bottom": "#F4F8FC",
+    "white": "#FFFFFF",
+    "muted": "#7C8AA8",
+    "muted_light": "#B8C2D6",
+    "blue_accent": "#3B82F6",
+    "card_dark_border": "rgba(255, 31, 90, 0.3)",
+    "card_dark_bg": "rgba(20, 35, 70, 0.4)",
+    "card_light_bg": "#FFFFFF",
+    "card_light_shadow": "rgba(10, 21, 50, 0.06)"
+  },
+
+  "fonts": {
+    "display": "'Archivo Black', 'Anton', 'Arial Black', sans-serif",
+    "display_weight": 900,
+    "body": "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
+    "body_weight_regular": 400,
+    "body_weight_bold": 700,
+    "mono": "'JetBrains Mono', 'Menlo', 'Courier New', monospace",
+    "mono_weight": 500
+  },
+
+  "dimensions": {
+    "width": 1080,
+    "height": 1350,
+    "padding_horizontal": 80,
+    "padding_top": 70,
+    "padding_bottom": 70
+  },
+
+  "assets": {
+    "photo_cover": "../_shared/assets/photo-cover.png",
+    "photo_close": "../_shared/assets/photo-close.png",
+    "logo": "../_shared/assets/logo.png",
+    "background_grid_dark": "../_shared/assets/grid-dark.svg",
+    "background_pattern_light": "../_shared/assets/pattern-light.svg"
+  },
+
+  "footer": {
+    "show_handle": true,
+    "show_next_arrow_until_last_slide": true,
+    "next_text": "NEXT →",
+    "last_slide_footer_text": ""
+  },
+
+  "page_counter": {
+    "format": "{current:02d} / {total:02d}",
+    "show_on_cover": false,
+    "show_on_close": false
+  }
+}
