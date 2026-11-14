@@ -1,0 +1,38 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="slide {% if dark_bg %}bg-dark{% else %}bg-light{% endif %}">
+  <div class="header">
+    <div class="handle" {% if dark_bg %}style="color: var(--white);"{% endif %}>{{ handle }}</div>
+    <div class="page-counter">{{ page_counter }}</div>
+  </div>
+
+  {% if section_pill_number or section_pill_label %}
+  <div class="section-pill-row">
+    {% if section_pill_number %}<div class="section-pill">{{ section_pill_number }}</div>{% endif %}
+    {% if section_pill_label %}<div class="section-label">{{ section_pill_label }}</div>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="headline" {% if dark_bg %}style="color: var(--white);"{% endif %}>
+    {% if headline_pre %}{{ headline_pre }} {% endif %}{% if headline_highlight %}<span class="headline-pink">{{ headline_highlight }}</span>{% endif %}{% if headline_post %} {{ headline_post }}{% endif %}{% if headline %}{{ headline }}{% endif %}
+  </div>
+
+  {% if subhead %}<div class="subhead">{{ subhead }}</div>{% endif %}
+
+  <div class="stat-grid">
+    {% for stat in stats %}
+    <div class="stat-box">
+      <div class="stat-number {{ stat.color|default('pink') }}">{{ stat.number }}</div>
+      <div class="stat-label">{{ stat.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% if cta %}<div class="cta-pill">{{ cta }}</div>{% endif %}
+
+  <div class="footer">
+    <div class="footer-handle">{{ handle }}</div>
+    <div class="footer-next">{{ next_text }}</div>
+  </div>
+</div>
+{% endblock %}

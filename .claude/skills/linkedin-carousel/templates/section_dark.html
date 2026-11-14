@@ -1,0 +1,39 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="slide bg-dark">
+  <div class="header">
+    <div class="handle" style="color: var(--white);">{{ handle }}</div>
+    <div class="page-counter">{{ page_counter }}</div>
+  </div>
+
+  <div class="section-pill-row">
+    {% if section_pill_number %}<div class="section-pill">{{ section_pill_number }}</div>{% endif %}
+    {% if section_pill_label %}<div class="section-label">{{ section_pill_label }}</div>{% endif %}
+  </div>
+
+  <div class="headline" style="color: var(--white);">
+    {% if headline_pre %}{{ headline_pre }} {% endif %}{% if headline_highlight %}<span class="headline-pink">{{ headline_highlight }}</span>{% endif %}{% if headline_post %} {{ headline_post }}{% endif %}{% if headline %}{{ headline }}{% endif %}
+  </div>
+
+  {% if subhead %}<div class="subhead">{{ subhead }}</div>{% endif %}
+
+  <div class="card-stack">
+    {% for card in cards %}
+    <div class="card">
+      <div class="card-number">{{ card.number }}</div>
+      <div class="card-content">
+        <div class="card-title" style="color: var(--white);">{{ card.title }}</div>
+        {% if card.body %}<div class="card-body">{{ card.body }}</div>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% if cta %}<div class="cta-pill">{{ cta }}</div>{% endif %}
+
+  <div class="footer">
+    <div class="footer-handle">{{ handle }}</div>
+    <div class="footer-next">{{ next_text }}</div>
+  </div>
+</div>
+{% endblock %}

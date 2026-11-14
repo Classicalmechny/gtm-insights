@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="cover">
+  {% if background_image %}
+  <div class="cover-bg-image" style="background-image: url('{{ background_image }}');"></div>
+  {% endif %}
+  <div class="cover-overlay"></div>
+  <div class="cover-content" style="padding-top: 90px;">
+    <div class="cover-headline" style="font-size: 96px;">
+      Comment <span class="pink-box">"{{ keyword }}"</span>
+    </div>
+    {% if instruction_lines %}
+    <div style="margin-top: 30px; font-family: var(--font-body); font-weight: 700; font-size: 38px; line-height: 1.25; color: var(--white);">
+      {% for line in instruction_lines %}
+      <div>{% if line.highlight_pink %}<span style="color: var(--accent);">{{ line.text }}</span>{% else %}{{ line.text }}{% endif %}</div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% if photo_close %}
+  <img src="{{ photo_close }}" class="cover-photo" alt="" style="bottom: 0; max-width: 65%;">
+  {% endif %}
+  {% if proof_image %}
+  <img src="{{ proof_image }}" alt="" style="position: absolute; right: 60px; bottom: 90px; width: 38%; border-radius: 14px; z-index: 3; box-shadow: 0 12px 50px rgba(0,0,0,0.4);">
+  {% endif %}
+</div>
+{% endblock %}

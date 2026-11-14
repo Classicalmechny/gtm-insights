@@ -1,0 +1,43 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="slide bg-light">
+  <div class="header">
+    <div class="handle">{{ handle }}</div>
+    <div class="page-counter">{{ page_counter }}</div>
+  </div>
+
+  {% if section_pill or section_meta %}
+  <div class="section-pill-row">
+    {% if section_pill %}<div class="section-pill">{{ section_pill }}</div>{% endif %}
+    {% if section_meta %}<div class="section-label">{{ section_meta }}</div>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="headline">
+    {% if headline_pre %}{{ headline_pre }} {% endif %}{% if headline_highlight %}<span class="headline-pink">{{ headline_highlight }}</span>{% endif %}{% if headline_post %} {{ headline_post }}{% endif %}
+  </div>
+
+  {% if subhead %}<div class="subhead">{{ subhead }}</div>{% endif %}
+
+  <div class="card-stack">
+    {% for item in items %}
+    <div class="card {% if item.starred %}starred-card{% endif %}" {% if item.starred %}style="background: var(--dark); color: var(--white);"{% endif %}>
+      <div class="card-number">{{ item.number }}</div>
+      <div class="card-content">
+        <div class="card-title" {% if item.starred %}style="color: var(--white);"{% endif %}>
+          {{ item.title }}{% if item.starred %} ★{% endif %}
+        </div>
+      </div>
+      {% if item.meta %}
+      <div class="card-meta-pill" {% if item.starred %}style="background: rgba(255,31,90,0.25); color: var(--accent);"{% endif %}>{{ item.meta }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="footer">
+    <div class="footer-handle">{{ handle }}</div>
+    <div class="footer-next">{{ next_text }}</div>
+  </div>
+</div>
+{% endblock %}

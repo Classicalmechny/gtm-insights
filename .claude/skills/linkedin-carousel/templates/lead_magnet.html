@@ -1,0 +1,50 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="slide bg-light">
+  <div class="header">
+    <div class="handle">{{ handle }}</div>
+    <div class="page-counter">{{ page_counter }}</div>
+  </div>
+
+  {% if section_pill_label %}
+  <div class="section-pill-row">
+    {% if section_pill_icon %}
+    <div class="section-pill" style="padding: 8px 14px;">{{ section_pill_icon }}</div>
+    {% endif %}
+    <div class="section-label">{{ section_pill_label }}</div>
+  </div>
+  {% endif %}
+
+  <div class="headline" style="font-size: 78px;">
+    {% if headline_pre %}{{ headline_pre }}<br>{% endif %}{% if headline_highlight %}<span class="headline-pink">{{ headline_highlight }}</span>{% endif %}
+  </div>
+
+  {% if benefits_box %}
+  <div style="background: var(--card-light-bg); border-radius: 18px; padding: 28px 32px; margin: 32px 0 24px; box-shadow: 0 4px 24px var(--card-light-shadow);">
+    <div style="font-family: var(--font-mono); color: var(--blue); font-weight: 700; font-size: 22px; letter-spacing: 0.1em; margin-bottom: 14px;">{{ benefits_box.label }}</div>
+    <div style="font-family: var(--font-body); font-weight: 700; font-size: 30px; line-height: 1.3; color: var(--dark);">{{ benefits_box.text }}</div>
+  </div>
+  {% endif %}
+
+  {% if terminal_lines %}
+  <div class="terminal">
+    {% for line in terminal_lines %}
+      {% if line.type == "command" %}
+      <div><span class="term-prompt">$</span> {{ line.text|safe }}</div>
+      {% elif line.type == "success" %}
+      <div class="term-success">{{ line.text|safe }}</div>
+      {% else %}
+      <div>{{ line.text|safe }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div style="flex: 1;"></div>
+
+  <div class="footer">
+    <div class="footer-handle">{{ handle }}</div>
+    <div class="footer-next">{{ next_text }}</div>
+  </div>
+</div>
+{% endblock %}

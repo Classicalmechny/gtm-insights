@@ -1,0 +1,58 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="slide bg-light">
+  <div class="header">
+    <div class="handle">{{ handle }}</div>
+    <div class="page-counter">{{ page_counter }}</div>
+  </div>
+
+  {% if section_pill_number or section_pill_label %}
+  <div class="section-pill-row">
+    {% if section_pill_number %}<div class="section-pill">{{ section_pill_number }}</div>{% endif %}
+    {% if section_pill_label %}<div class="section-label">{{ section_pill_label }}</div>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="headline">
+    {% if headline_pre %}{{ headline_pre }} {% endif %}{% if headline_highlight %}<span class="headline-pink">{{ headline_highlight }}</span>{% endif %}{% if headline_post %} {{ headline_post }}{% endif %}{% if headline %}{{ headline }}{% endif %}
+  </div>
+
+  {% if subhead %}<div class="subhead">{{ subhead }}</div>{% endif %}
+
+  {% if tool_card %}
+  <div class="card" style="margin-bottom: 24px;">
+    {% if tool_card.icon_emoji %}
+    <div style="font-size: 56px; min-width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(59,130,246,0.1); border-radius: 14px;">{{ tool_card.icon_emoji }}</div>
+    {% endif %}
+    <div class="card-content">
+      <div class="card-title">{{ tool_card.title }}</div>
+      <div class="card-body">{{ tool_card.body }}</div>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="terminal">
+    <div class="terminal-dots">
+      <div class="terminal-dot dot-red"></div>
+      <div class="terminal-dot dot-yellow"></div>
+      <div class="terminal-dot dot-green"></div>
+    </div>
+    {% for line in terminal_lines %}
+      {% if line.type == "command" %}
+      <div><span class="term-prompt">$</span> {{ line.text|safe }}</div>
+      {% elif line.type == "success" %}
+      <div class="term-success">{{ line.text|safe }}</div>
+      {% else %}
+      <div>{{ line.text|safe }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if cta %}<div class="cta-pill">{{ cta }}</div>{% endif %}
+
+  <div class="footer">
+    <div class="footer-handle">{{ handle }}</div>
+    <div class="footer-next">{{ next_text }}</div>
+  </div>
+</div>
+{% endblock %}
