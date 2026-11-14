@@ -1,0 +1,66 @@
+{
+  "topic_slug": "linkedin-2026-playbook",
+  "template": "strategy_cards",
+  "compact": true,
+  "grid_columns": 2,
+  "profile": {
+    "photo": "../_shared/assets/Personal photo.png",
+    "name": "Anirudh Gupta",
+    "url": "linkedin.com/in/anirudhgupta",
+    "position": "top_center"
+  },
+  "title_parts": [
+    {"text": "The 2024 LinkedIn outbound playbook is", "highlight": false},
+    {"text": "dead", "highlight": true}
+  ],
+  "subtitle": "OutX studied 12,000 users across 47 automation tools. The math doesn't work anymore.",
+  "author": "HeyReach's LinkedIn company page was quietly removed in March.",
+  "top_stats": [
+    {"label": "Users studied", "value": "12,000", "sublabel": "across 47 outbound tools"},
+    {"label": "Cloud-based restriction", "arrow": "↑", "value": "31%", "sublabel": "vs 8% on browser-based"},
+    {"label": "Cloud vs browser flag rate", "arrow": "↑", "value": "4×", "sublabel": "more often, half the volume"}
+  ],
+  "strategies": [
+    {
+      "label": "✓ INFRASTRUCTURE",
+      "title": "Browser-based execution",
+      "body": "Browser tools showed an 8% restriction rate. LinkedIn's detection is built around fingerprint patterns, not raw volume.",
+      "takeaway": "Where the action runs is the new compliance line."
+    },
+    {
+      "label": "✗ INFRASTRUCTURE",
+      "title": "Cloud / shared datacenter IPs",
+      "body": "Cloud-based tools showed a 31% restriction rate — flagged 4× more often than browser-based, while sending half the volume.",
+      "takeaway": "Datacenter IPs are the loudest signal you can send."
+    },
+    {
+      "label": "✓ TIMING",
+      "title": "Random timing between actions",
+      "body": "200 daily requests on natural pacing get flagged less often than 50 daily on robotic 30-second intervals.",
+      "takeaway": "Predictability flags accounts faster than volume."
+    },
+    {
+      "label": "✗ TIMING",
+      "title": "Fixed delays + daily caps",
+      "body": "Robotic 30-second gaps are the real signal — not the request count itself. Cadence is the fingerprint LinkedIn watches.",
+      "takeaway": "Same delay every day = same daily fingerprint."
+    },
+    {
+      "label": "✓ FINGERPRINT",
+      "title": "Real Chrome + stealth + residential proxy",
+      "body": "Run a real Chrome session with stealth fingerprint plugins. Add a residential proxy if the account matters to your business.",
+      "takeaway": "Look human at the protocol layer or get blocked."
+    },
+    {
+      "label": "✗ FINGERPRINT",
+      "title": "Same request pattern every day",
+      "body": "Identical daily rhythm produces an identical fingerprint. Vary surface area, timing, and action mix across the week.",
+      "takeaway": "Repetition is the tell. Variance is survival."
+    }
+  ],
+  "cta_repost": {
+    "photo": "../_shared/assets/Personal photo.png",
+    "headline": "Browser or cloud — what's your current LinkedIn outreach stack?",
+    "sub": "Reply with your stack and I'll send back the closest viable migration path."
+  }
+}
