@@ -19,7 +19,7 @@ const BLITZ = 'https://api.blitz-api.ai';
   };
   console.log('=== /v2/search/companies ===');
   console.log('req:', JSON.stringify(body));
-  let r = await httpJson(__BT____D__BLITZ}/v2/search/companies__BT__, { method: 'POST', headers: H, body });
+  let r = await httpJson(`${BLITZ}/v2/search/companies`, { method: 'POST', headers: H, body });
   console.log('status', r.status, 'total', r.json && r.json.total_results, 'cursor?', !!(r.json && r.json.cursor));
   if (r.status !== 200) { console.log('raw:', (r.text || '').slice(0, 1500)); }
   const cos = (r.json && (r.json.results || r.json.companies || r.json.data)) || [];
@@ -34,7 +34,7 @@ const BLITZ = 'https://api.blitz-api.ai';
   const coLi = c0 && (c0.linkedin_url || c0.company_linkedin_url);
   if (coLi) {
     console.log('\n=== /v2/search/employee-finder (company:', coLi, ') ===');
-    const ef = await httpJson(__BT____D__BLITZ}/v2/search/employee-finder__BT__, { method: 'POST', headers: H, body: {
+    const ef = await httpJson(`${BLITZ}/v2/search/employee-finder`, { method: 'POST', headers: H, body: {
       company_linkedin_url: coLi,
       people: { job_title: { include: CFG.titleInclude, exclude: CFG.titleExclude } },
       max_results: 5,
