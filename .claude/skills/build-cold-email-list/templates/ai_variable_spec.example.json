@@ -1,0 +1,25 @@
+{
+  "variables": [
+    {
+      "name": "icebreaker",
+      "prompt": "Write a single-sentence cold-email icebreaker for {first_name}, the {title} at {company_name} ({company_domain}). It must reference something concrete from this homepage context (or skip it if generic):\n\n{company_homepage_text}\n\nNo greeting. No 'I noticed'. Output the sentence only.",
+      "max_tokens": 120,
+      "needs_web": true,
+      "fallback": "Reaching out because {company_name} fits a pattern we see across {company_industry} teams."
+    },
+    {
+      "name": "custom_angle",
+      "prompt": "In 1-2 sentences, write the most relevant pitch angle for selling [PRODUCT] to {company_name}, given they are a {company_industry} company with around {company_employee_count} employees. Be specific about which pain point likely matters most to a {title}. No fluff.",
+      "max_tokens": 200,
+      "needs_web": false,
+      "fallback": ""
+    },
+    {
+      "name": "fit_score",
+      "prompt": "Score the cold-email fit of {company_name} (industry: {company_industry}, size: {company_employee_count}) for our offer on a scale of high / medium / low. Output ONLY one of: high, medium, low.",
+      "max_tokens": 8,
+      "needs_web": false,
+      "fallback": "medium"
+    }
+  ]
+}
