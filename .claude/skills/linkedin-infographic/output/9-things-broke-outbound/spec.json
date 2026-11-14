@@ -1,0 +1,85 @@
+{
+  "topic_slug": "9-things-broke-outbound",
+  "template": "strategy_cards",
+  "compact": true,
+  "grid_columns": 3,
+  "profile": {
+    "photo": "../_shared/assets/Personal photo.png",
+    "name": "Anirudh Gupta",
+    "url": "linkedin.com/in/anirudhgupta",
+    "position": "top_center"
+  },
+  "title_parts": [
+    {"text": "9 things", "highlight": false},
+    {"text": "broke", "highlight": true},
+    {"text": "in outbound last week", "highlight": false}
+  ],
+  "subtitle": "Most operators missed every single one. Here is the signal log.",
+  "author": "April 21–25, 2026",
+  "top_stats": [
+    {"label": "GPT-5.5 API price", "arrow": "↑", "value": "$5 / $30", "sublabel": "per MTok input / output"},
+    {"label": "Cloud-tool restriction", "arrow": "↑", "value": "31%", "sublabel": "vs 8% on browser-based"},
+    {"label": "BOFU agent funding", "arrow": "↑", "value": "$10.5M", "sublabel": "Realm + DOJO this week"}
+  ],
+  "strategies": [
+    {
+      "label": "BREAK 1",
+      "title": "GPT-5.5 ships as the first agent base model",
+      "body": "OpenAI markets it as an agent, not a chat model. API price doubled to $5 / $30 per MTok.",
+      "takeaway": "Your AI outbound unit economics reset this week."
+    },
+    {
+      "label": "BREAK 2",
+      "title": "Clay MCP went live in Claude + ChatGPT",
+      "body": "Run any saved Clay workflow from chat. No app switch — the data layer is in the assistant.",
+      "takeaway": "The interface is collapsing. The tool is the prompt."
+    },
+    {
+      "label": "BREAK 3",
+      "title": "OpenAI Workspace Agents launched at $20 / seat",
+      "body": "Native Salesforce, Slack, and Notion plug-ins. Free until May 6 — then per-seat pricing.",
+      "takeaway": "Microsoft Copilot finally has a same-priced rival."
+    },
+    {
+      "label": "BREAK 4",
+      "title": "HubSpot Prospecting Agent auto-sources contacts",
+      "body": "It now pulls leads from ZoomInfo, Apollo, and Surfe automatically. 28 days free for eligible accounts.",
+      "takeaway": "Native CRM sourcing is now table stakes."
+    },
+    {
+      "label": "BREAK 5",
+      "title": "Clay replaced by $200 of Claude Code",
+      "body": "Adam Robinson published Taylor Haren's case study — Clay swapped for a Claude Code pipeline. Claim: 272k leads/sec.",
+      "takeaway": "Bespoke pipelines are eating per-seat pricing."
+    },
+    {
+      "label": "BREAK 6",
+      "title": "Clay went down for multiple days on April 23",
+      "body": "A multi-day enrichment outage hit the same week the Robinson case study landed.",
+      "takeaway": "Vendor concentration is the silent risk."
+    },
+    {
+      "label": "BREAK 7",
+      "title": "Browser tools restrict 4× less than cloud tools",
+      "body": "OutX studied 12k LinkedIn users across 47 outbound tools. Browser: 8% restriction. Cloud: 31%.",
+      "takeaway": "Architecture is the new compliance moat."
+    },
+    {
+      "label": "BREAK 8",
+      "title": "$10.5M into bottom-of-funnel agents",
+      "body": "Realm raised $4.5M from HubSpot Ventures. DOJO AI closed $6M at a $30M valuation.",
+      "takeaway": "The money is moving downstream of the SDR."
+    },
+    {
+      "label": "BREAK 9",
+      "title": "Microsoft pushed SMTP Basic Auth to Dec 2026",
+      "body": "Original cutoff was April 30. Eight extra months for legacy senders to migrate to OAuth.",
+      "takeaway": "Reprieve, not amnesty. Treat Dec 2026 as already gone."
+    }
+  ],
+  "cta_repost": {
+    "photo": "../_shared/assets/Personal photo.png",
+    "headline": "Which of these breaks your stack first?",
+    "sub": "Reply with the number — I'll send back what I'd swap, kill, or double down on."
+  }
+}
