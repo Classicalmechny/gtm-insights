@@ -1,0 +1,42 @@
+{
+  "_comment": "Brand tokens for the personal-brand infographic mode. Strictly follows the IntentLedSales Brand Identity Guide v1.0 (March 2026): single cyan accent, dark theme, Plus Jakarta Sans + Inter + Playfair Display. The IntentLedSales NAME and LOGO are never used — personal photo only.",
+
+  "name": "Anirudh Gupta",
+  "url": "linkedin.com/in/anirudhgupta",
+
+  "profile": {
+    "photo": "../_shared/assets/Personal photo.png",
+    "name": "Anirudh Gupta",
+    "url": "linkedin.com/in/anirudhgupta"
+  },
+
+  "dimensions": {
+    "width": 1080,
+    "height": 1350,
+    "padding_horizontal": 50,
+    "padding_top": 44,
+    "padding_bottom": 44,
+    "_comment": "Locked LinkedIn portrait canvas: 1080x1350. Both dimensions are fixed. If content overflows, reduce content density (compact mode, fewer points, terser copy) — never increase the canvas."
+  },
+
+  "colors": {
+    "bg": "#0A0A0F",
+    "surface": "#111118",
+    "card": "#1A1A24",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#D1D5DB",
+    "text_muted": "#6B7280",
+    "text_dim": "#4B5563",
+    "border_subtle": "rgba(255,255,255,0.05)",
+    "border_hover": "rgba(255,255,255,0.10)",
+    "accent": "#22D3EE",
+    "accent_bg": "rgba(34, 211, 238, 0.12)",
+    "accent_border": "rgba(34, 211, 238, 0.40)"
+  },
+
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter",
+    "display": "Playfair Display"
+  }
+}
