@@ -49,8 +49,8 @@ function writeCsv(file, rows) {
   const perCompany = Number(process.argv[3] || 3) || 3;
   const qualified = parseCsv(csv);
   const outDir = path.join(path.dirname(csv), '..', 'resume_' + new Date().toISOString().slice(0, 16).replace(/[-:T]/g, ''));
-  const log = (s, d) => console.log(\`[\${s}]\`, JSON.stringify(d));
-  console.log(\`Resume from \${qualified.length} qualified companies, perCompany=\${perCompany}\`);
+  const log = (s, d) => console.log(`[${s}]`, JSON.stringify(d));
+  console.log(`Resume from ${qualified.length} qualified companies, perCompany=${perCompany}`);
 
   // Pre-create all region campaigns (incl. AU + EMEA) so they exist even empty.
   await S.ensureAllRegionCampaigns(K, log);
