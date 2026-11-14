@@ -226,7 +226,7 @@ function normalizeOpenRole(jt, rq) {
   var t = (jt || '').trim();
   if (!t) return fixCase(rq || 'Software Engineer');
   var hi = t.toLowerCase().indexOf('is hiring'); if (hi >= 0) { var c = t.indexOf(':', hi); t = c >= 0 ? t.slice(c + 1).trim() : t.slice(hi + 9).trim(); }
-  var cut = t.length; ['(', ' - ', ' \\u2013 ', '|', ',', '/'].forEach(function(d){ var i = t.indexOf(d); if (i >= 0 && i < cut) cut = i; }); t = t.slice(0, cut).trim();
+  var cut = t.length; ['(', ' - ', ' \u2013 ', '|', ',', '/'].forEach(function(d){ var i = t.indexOf(d); if (i >= 0 && i < cut) cut = i; }); t = t.slice(0, cut).trim();
   var junk = ['remote','hybrid','onsite','contract','full-time','fulltime','w2','c2c','usa','us','uk'];
   t = t.split(/\\s+/).filter(function(w){ return junk.indexOf(w.toLowerCase()) < 0 && !/^\\d{4,}$/.test(w); }).join(' ').trim();
   if (!t || t.length > 48) t = rq || 'Software Engineer';
