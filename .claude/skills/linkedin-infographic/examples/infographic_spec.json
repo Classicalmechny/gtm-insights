@@ -1,0 +1,119 @@
+{
+  "_comment": "Reference infographic spec showing the strategy_cards template (image 3 style: numbered colored strategies in 2-col grid). For the other 3 templates (comparison_grid, master_grid, deep_dive), see the inline JSON snippets in SKILL.md.",
+
+  "topic_slug": "gtm-playbook-2026",
+  "template": "strategy_cards",
+
+  "profile": {
+    "photo": "assets/photo-profile.png",
+    "name": "Your Name",
+    "url": "yoursite.com",
+    "position": "top_center"
+  },
+
+  "title_parts": [
+    {"text": "The New", "highlight": false},
+    {"text": "GTM Playbook", "highlight": true, "color_class": ""}
+  ],
+  "subtitle": "7 strategies we're betting on for 2026",
+  "author": "By Your Name, Co-founder @ YourCompany",
+
+  "top_stats": [
+    {
+      "color": "red",
+      "label": "Cold email replies",
+      "arrow": "↓",
+      "value": "8.5% → 5%",
+      "sublabel": "(2024-2026)"
+    },
+    {
+      "color": "green",
+      "label": "GTM engineer postings",
+      "arrow": "↑",
+      "value": "+205%",
+      "sublabel": "(2025)"
+    },
+    {
+      "color": "green",
+      "label": "$15T B2B",
+      "value": "$15T B2B",
+      "sublabel": "spend via AI agents by 2028 (Gartner)"
+    }
+  ],
+
+  "strategies": [
+    {
+      "label": "STRATEGY 1",
+      "color": "cyan",
+      "title": "Cold email in a silo is dead",
+      "body": "Single-channel sequences are getting cooked by AI-saturated inboxes. Multi-channel lifts response 287%.",
+      "points": [
+        {"title": "+287% response lift", "desc": "with 3+ channel sequences"},
+        {"title": "Cold email in a silo is dead", "desc": "Cold email is not dead."}
+      ]
+    },
+    {
+      "label": "STRATEGY 2",
+      "color": "purple",
+      "title": "Relevance beats personalization",
+      "body": "Clay hit $3.1B valuation / $100M ARR selling relevance, not tokens.",
+      "points": [
+        {"title": "Offer fit > token fit", "desc": "20 personalization points on a bad offer still gets you no reply"}
+      ]
+    },
+    {
+      "label": "STRATEGY 3",
+      "color": "pink",
+      "title": "Content is the best follow-up",
+      "body": "Pipeline is being decided in DMs you'll never attribute. Content isn't top of funnel. It's closing.",
+      "points": [
+        {"title": "2% have a preferred vendor before evaluation", "desc": "B2B buyer behavior 2026"},
+        {"title": "84% of B2B content sharing", "desc": "happens in private, untrackable channels"}
+      ]
+    },
+    {
+      "label": "STRATEGY 4",
+      "color": "red",
+      "title": "One AI will talk to another AI before any human call",
+      "body": "67% of B2B buyers prefer a rep-free buying experience. Before two humans talk, their AIs already have.",
+      "takeaway": "The pre-sales layer is now an AI-to-AI conversation."
+    },
+    {
+      "label": "STRATEGY 5",
+      "color": "orange",
+      "title": "Sell the Ford before the Ferrari",
+      "body": "Most companies don't know how to drive the Ford. You're selling them the Ferrari.",
+      "points": [
+        {"title": "11x AI SDR: 70-80% churn", "desc": "Clay requires 4-6 weeks of onboarding"},
+        {"title": "Start with the simple stack", "desc": "Earn the right to upsell"}
+      ]
+    },
+    {
+      "label": "STRATEGY 6",
+      "color": "yellow",
+      "title": "Hire a GTM department, not sales + marketing",
+      "body": "Anthropic: $5.6M revenue per employee. GTM engineer postings grew 205% in 2025.",
+      "takeaway": "The separated-team model was built for a world where channels didn't overlap. They do now."
+    },
+    {
+      "label": "STRATEGY 7",
+      "color": "green",
+      "title": "The signal is the new list",
+      "body": "Clay hit $100M ARR by running on 130+ signal sources. Top prospecting ICPs become prospecting moments.",
+      "full_width": true,
+      "points": [
+        {"title": "Hiring: VP of Sales", "desc": "trigger"},
+        {"title": "Funding: Series B closed", "desc": "trigger"},
+        {"title": "Product usage spike", "desc": "trigger"},
+        {"title": "G2 review posted", "desc": "trigger"}
+      ],
+      "takeaway": "The list is the bottleneck. The signal is the leverage."
+    }
+  ],
+
+  "cta_repost": {
+    "photo": "assets/photo-profile.png",
+    "headline": "Repost",
+    "sub": "if your team is still building for 2022."
+  }
+}
