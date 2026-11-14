@@ -1,0 +1,85 @@
+{% extends "_base.html" %}
+{% block content %}
+{% set cols = grid_columns|default(2) %}
+{% set compact = compact|default(false) %}
+
+{% if profile and profile.position == "top_center" %}
+<div style="text-align: center; margin-bottom: {% if compact %}12px{% else %}22px{% endif %};">
+  <div class="profile-pill">
+    <img src="{{ profile.photo }}" alt="">
+    <div class="name">{{ profile.name }}<span class="sep">|</span><span class="url">{{ profile.url }}</span></div>
+  </div>
+</div>
+{% endif %}
+
+<div style="text-align: center; margin-bottom: {% if compact %}16px{% else %}28px{% endif %};">
+  <div class="infographic-title" style="{% if compact %}font-size: 46px;{% endif %}">
+    {% for word in title_parts %}
+      {% if word.highlight %}<span class="accent">{{ word.text }}</span>{% else %}{{ word.text }}{% endif %}{% if not loop.last %} {% endif %}
+    {% endfor %}
+  </div>
+  {% if subtitle %}<div class="infographic-subtitle" style="{% if compact %}font-size: 17px; margin-top: 6px;{% endif %}">{{ subtitle }}</div>{% endif %}
+  {% if author %}<div class="infographic-author" style="{% if compact %}font-size: 14px;{% endif %}">{{ author }}</div>{% endif %}
+</div>
+
+{% if top_stats %}
+<div class="stat-row" style="{% if compact %}margin-bottom: 14px; gap: 10px;{% endif %}">
+  {% for stat in top_stats %}
+  <div class="stat-card" style="{% if compact %}padding: 14px 18px;{% endif %}">
+    <div class="label" style="{% if compact %}font-size: 10px; margin-bottom: 5px;{% endif %}">{{ stat.label }}</div>
+    <div class="value" style="{% if compact %}font-size: 24px;{% endif %}">{% if stat.arrow %}{{ stat.arrow }} {% endif %}{{ stat.value }}</div>
+    {% if stat.sublabel %}<div class="sublabel" style="{% if compact %}font-size: 11px; margin-top: 4px;{% endif %}">{{ stat.sublabel }}</div>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<div class="fill-vertical" style="display: grid; grid-template-columns: repeat({{ cols }}, 1fr); gap: {% if compact %}10px{% else %}16px{% endif %}; grid-auto-rows: 1fr;">
+  {% for strat in strategies %}
+  <div class="section-card" style="{% if compact %}padding: 16px; margin-bottom: 0;{% endif %}{% if strat.full_width %} grid-column: 1 / -1;{% endif %}">
+    <div style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: {% if compact %}8px{% else %}16px{% endif %};">
+      <div class="section-header-pill" style="flex-shrink: 0;{% if compact %} font-size: 10px; padding: 4px 10px;{% endif %}">{{ strat.label }}</div>
+    </div>
+    <div class="section-title" style="{% if compact %}font-size: 17px; margin-bottom: 8px; line-height: 1.25;{% else %}margin-bottom: 10px;{% endif %}">{{ strat.title }}</div>
+
+    {% if strat.body %}
+    <div style="font-family: var(--font-body); font-size: {% if compact %}13px{% else %}15px{% endif %}; color: var(--text-2); line-height: 1.45;{% if not compact %} margin-bottom: 16px;{% endif %}">{{ strat.body }}</div>
+    {% endif %}
+
+    {% if not compact %}
+      {% if strat.diagram_html %}
+      <div style="margin-bottom: 16px;">{{ strat.diagram_html|safe }}</div>
+      {% endif %}
+
+      {% if strat.points %}
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px;">
+        {% for pt in strat.points %}
+        <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px;">
+          <div style="font-family: var(--font-heading); font-weight: 600; font-size: 14px; color: var(--text); margin-bottom: 3px;">{{ pt.title }}</div>
+          <div style="font-size: 12px; color: var(--text-muted); line-height: 1.4;">{{ pt.desc }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    {% endif %}
+
+    {% if strat.takeaway %}
+    <div class="push-bottom">
+      <div class="accent-divider" style="margin: {% if compact %}10px 0 8px{% else %}18px 0{% endif %};"></div>
+      <div style="font-family: var(--font-display); font-style: italic; font-size: {% if compact %}13px{% else %}15px{% endif %}; color: var(--accent); line-height: 1.35;">{{ strat.takeaway }}</div>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+{% if cta_repost %}
+<div class="cta-repost" style="{% if compact %}padding: 14px 18px; margin-top: 14px; gap: 14px;{% endif %}">
+  {% if cta_repost.photo %}<img src="{{ cta_repost.photo }}" alt="" style="{% if compact %}width: 56px; height: 56px;{% endif %}">{% endif %}
+  <div class="text">
+    <div class="text-headline" style="{% if compact %}font-size: 18px;{% endif %}">{{ cta_repost.headline }}</div>
+    <div class="text-sub" style="{% if compact %}font-size: 13px;{% endif %}">{{ cta_repost.sub }}</div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}

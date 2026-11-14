@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ title }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* ─────────────────────────────────────────────────────────────
+     IntentLedSales Brand Identity Guide v1.0 — strict tokens.
+     Single cyan accent. Dark mode. Plus Jakarta Sans + Inter + Playfair.
+     Never uses the IntentLedSales name/logo.
+  ───────────────────────────────────────────────────────────── */
+  :root {
+    --bg: #0A0A0F;
+    --surface: #111118;
+    --card: #1A1A24;
+    --card-2: #20202C;
+
+    --text: #FFFFFF;
+    --text-2: #D1D5DB;
+    --text-muted: #6B7280;
+    --text-dim: #4B5563;
+
+    --border: rgba(255,255,255,0.05);
+    --border-hover: rgba(255,255,255,0.10);
+
+    --accent: #22D3EE;
+    --accent-bg: rgba(34, 211, 238, 0.12);
+    --accent-border: rgba(34, 211, 238, 0.40);
+    --accent-divider: linear-gradient(to right, transparent, rgba(34,211,238,0.2), transparent);
+
+    --font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Playfair Display', serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  body {
+    width: {{ dimensions.width }}px;
+    height: {{ dimensions.height|default(1350) }}px;
+    background: var(--bg);
+    padding: {{ dimensions.padding_top|default(44) }}px {{ dimensions.padding_horizontal|default(50) }}px {{ dimensions.padding_bottom|default(44) }}px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Make the strategy grid (the dominant block) absorb leftover vertical space
+     so cards stretch and the canvas stays fully filled — no dead zone at bottom. */
+  .fill-vertical { flex: 1 1 auto; min-height: 0; }
+
+  /* Subtle radial glow ribbon at top — brand-style accent band */
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: var(--accent-divider);
+    pointer-events: none;
+    z-index: 2;
+  }
+  body > * { position: relative; z-index: 1; }
+
+  /* Profile pill — name + url on glassy bg */
+  .profile-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 8px 20px 8px 8px;
+  }
+  .profile-pill img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--border-hover);
+  }
+  .profile-pill .name {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--text);
+  }
+  .profile-pill .sep {
+    color: var(--text-dim);
+    margin: 0 4px;
+  }
+  .profile-pill .url {
+    color: var(--text-muted);
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  /* Main title (Plus Jakarta Sans) */
+  .infographic-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    color: var(--text);
+  }
+  .infographic-title .accent {
+    color: var(--accent);
+  }
+  .infographic-subtitle {
+    font-family: var(--font-body);
+    font-size: 20px;
+    color: var(--text-2);
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+  .infographic-author {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--text-muted);
+    margin-top: 8px;
+  }
+
+  /* Header layout */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    margin-bottom: 36px;
+  }
+  .header-center {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Section card (a major block) — brand: bg #1A1A24, border white/5%, radius 8 */
+  .section-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-card.accent {
+    border-color: var(--accent-border);
+  }
+  .section-card .push-bottom { margin-top: auto; }
+
+  /* Section header pill — single brand variant */
+  .section-header-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    background: var(--accent-bg);
+    color: var(--accent);
+    border: 1px solid var(--accent-border);
+  }
+
+  .section-title {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
+  }
+
+  /* Tip / item card inside a section — neutral, subtle */
+  .tip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .tip {
+    display: flex;
+    gap: 12px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+  .tip-num {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--accent);
+    min-width: 28px;
+  }
+  .tip-content { flex: 1; }
+  .tip-title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.3;
+    margin-bottom: 2px;
+  }
+  .tip-desc {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  /* Stat row — single brand variant */
+  .stat-row {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 28px;
+    justify-content: stretch;
+  }
+  .stat-card {
+    flex: 1;
+    background: var(--card);
+    border-radius: 10px;
+    padding: 18px 22px;
+    border: 1px solid var(--border);
+  }
+  .stat-card .label {
+    font-family: var(--font-heading);
+    font-size: 11px;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    margin-bottom: 8px;
+  }
+  .stat-card .value {
+    font-family: var(--font-heading);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+  }
+  .stat-card .sublabel {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 6px;
+  }
+
+  /* Comparison column header */
+  .compare-grid {
+    display: grid;
+    grid-template-columns: repeat({{ compare_columns|default(3) }}, 1fr);
+    gap: 14px;
+  }
+  .compare-col-header {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .compare-col-header img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+  }
+  .compare-col-header .name {
+    font-family: var(--font-heading);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .compare-col-header .meta {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+  .compare-attr-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 10px;
+  }
+  .compare-attr-label {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background: var(--accent-bg);
+    color: var(--accent);
+    border: 1px solid var(--accent-border);
+    margin-bottom: 8px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .compare-attr-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text);
+    line-height: 1.25;
+    margin-bottom: 4px;
+  }
+  .compare-attr-desc {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  /* Editorial accent (Playfair italic) — sparingly */
+  .accent-script {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--accent);
+    display: inline-block;
+  }
+
+  /* CTA block at bottom */
+  .cta-repost {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 28px;
+    padding: 22px 24px;
+    background: var(--card);
+    border: 1px solid var(--accent-border);
+    border-radius: 12px;
+  }
+  .cta-repost img {
+    width: 84px;
+    height: 84px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .cta-repost .text { flex: 1; }
+  .cta-repost .text-headline {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--text);
+    margin-bottom: 4px;
+    line-height: 1.25;
+  }
+  .cta-repost .text-sub {
+    font-size: 15px;
+    color: var(--text-2);
+    line-height: 1.4;
+  }
+
+  /* Final tagline */
+  .final-tagline {
+    text-align: center;
+    margin-top: 24px;
+    padding: 22px;
+  }
+  .final-tagline .question {
+    font-size: 18px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  .final-tagline .answer {
+    font-family: var(--font-heading);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  /* Section divider (thin gradient line) */
+  .accent-divider {
+    height: 1px;
+    background: var(--accent-divider);
+    margin: 18px 0;
+  }
+</style>
+{% block extra_head %}{% endblock %}
+</head>
+<body>
+{% block content %}{% endblock %}
+</body>
+</html>

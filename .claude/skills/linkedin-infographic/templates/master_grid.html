@@ -1,0 +1,40 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="header">
+  <div class="infographic-title">
+    {% for word in title_parts %}
+      {% if word.highlight %}<span class="accent">{{ word.text }}</span>{% else %}{{ word.text }}{% endif %}{% if not loop.last %} {% endif %}
+    {% endfor %}
+  </div>
+  {% if profile %}
+  <div class="profile-pill">
+    <img src="{{ profile.photo }}" alt="">
+    <div class="name">{{ profile.name }}<span class="sep">|</span><span class="url">{{ profile.url }}</span></div>
+  </div>
+  {% endif %}
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 18px;">
+  {% for section in sections %}
+  <div class="section-card">
+    <div style="margin: -28px -28px 18px; padding: 16px 28px; background: var(--accent-bg); border-bottom: 1px solid var(--accent-border); border-radius: 12px 12px 0 0;">
+      <div style="font-family: var(--font-heading); font-weight: 700; font-size: 16px; color: var(--accent); text-align: center; letter-spacing: 0.05em; text-transform: uppercase;">
+        {{ section.number }} &middot; {{ section.title }}
+      </div>
+    </div>
+
+    <div class="tip-grid">
+      {% for tip in section.tips %}
+      <div class="tip">
+        <div class="tip-num">{{ tip.number }}</div>
+        <div class="tip-content">
+          <div class="tip-title">{{ tip.title }}</div>
+          {% if tip.desc %}<div class="tip-desc">{{ tip.desc }}</div>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

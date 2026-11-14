@@ -1,0 +1,79 @@
+{% extends "_base.html" %}
+{% block content %}
+{% if profile %}
+<div style="text-align: center; margin-bottom: 22px;">
+  <div class="profile-pill">
+    <img src="{{ profile.photo }}" alt="">
+    <div class="name">{{ profile.name }}<span class="sep">|</span><span class="url">{{ profile.url }}</span></div>
+  </div>
+</div>
+{% endif %}
+
+<div class="header" style="display: block; text-align: center;">
+  {% if header_tag %}
+  <div style="font-family: var(--font-heading); font-size: 13px; color: var(--accent); margin-bottom: 12px; letter-spacing: 0.10em; text-transform: uppercase; font-weight: 600;">{{ header_tag }}</div>
+  {% endif %}
+  <div class="infographic-title" style="font-size: 56px;">{{ title }}</div>
+</div>
+
+<div class="compare-grid" style="grid-template-columns: repeat({{ columns|length }}, 1fr);">
+  {# Column headers #}
+  {% for col in columns %}
+  <div class="compare-col-header">
+    {% if col.logo %}<img src="{{ col.logo }}" alt="">{% endif %}
+    <div class="name">{{ col.name }}</div>
+    {% if col.meta %}<div class="meta">{{ col.meta }}</div>{% endif %}
+  </div>
+  {% endfor %}
+
+  {% if has_when_to_use %}
+    {% for col in columns %}
+    <div style="text-align: center; margin-bottom: 8px;">
+      <div style="display: inline-block; background: var(--accent-bg); color: var(--accent); padding: 6px 18px; border-radius: 999px; font-family: var(--font-heading); font-weight: 600; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid var(--accent-border);">When to use</div>
+    </div>
+    {% endfor %}
+    {% for col in columns %}
+    <div class="compare-attr-card">
+      <div class="compare-attr-title">{{ col.when_title }}</div>
+      <div class="compare-attr-desc">{{ col.when_desc }}</div>
+    </div>
+    {% endfor %}
+  {% endif %}
+
+  {# Attribute rows #}
+  {% for attr in attributes %}
+    {% for col in columns %}
+    <div class="compare-attr-card">
+      <div class="compare-attr-label">{{ attr.label }}</div>
+      <div class="compare-attr-title">{{ col.values[attr.key].title }}</div>
+      <div class="compare-attr-desc">{{ col.values[attr.key].desc }}</div>
+    </div>
+    {% endfor %}
+  {% endfor %}
+</div>
+
+{% if takeaway %}
+<div class="section-card accent" style="margin-top: 24px;">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; gap: 16px;">
+    <div style="font-family: var(--font-heading); font-size: 26px; font-weight: 800; color: var(--text); line-height: 1.2;">{{ takeaway.title }}</div>
+    {% if takeaway.annotation %}
+    <div class="accent-script">{{ takeaway.annotation }}</div>
+    {% endif %}
+  </div>
+  {% if takeaway.body %}
+  <div style="font-size: 15px; color: var(--text-2); line-height: 1.5; margin-bottom: 16px;">{{ takeaway.body }}</div>
+  {% endif %}
+  {% if takeaway.points %}
+  <div style="display: grid; grid-template-columns: repeat({{ takeaway.points|length }}, 1fr); gap: 12px;">
+    {% for pt in takeaway.points %}
+    <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px;">
+      <div style="font-family: var(--font-heading); font-weight: 700; font-size: 14px; color: var(--accent); margin-bottom: 4px;">{{ pt.title }}</div>
+      <div style="font-size: 13px; color: var(--text-muted); line-height: 1.4;">{{ pt.desc }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% endblock %}
