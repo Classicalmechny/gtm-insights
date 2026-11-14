@@ -1,0 +1,7 @@
+Total domains checked: 33
+Domain blacklist hits: 0
+Missing SPF: 0 -> []
+Missing DMARC: 0 -> []
+Missing DKIM (common selectors): 0
+
+Blacklisted domains:
