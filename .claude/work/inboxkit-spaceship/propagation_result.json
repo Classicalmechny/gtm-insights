@@ -1,0 +1,501 @@
+{
+  "error": false,
+  "message": "Nameservers propagation checked successfully",
+  "result": [
+    {
+      "_id": "6a0344d864a2330a2cba98a8",
+      "uid": "5f1c3fe6-9d36-4fde-aead-55295ba92f13",
+      "name": "aiyna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:21:26.044Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10cd",
+      "uid": "c044faa7-b6bd-4034-982f-19f50a468c43",
+      "name": "ayena.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:13.238Z",
+      "updatedAt": "2026-05-12T15:19:23.593Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344a86284dc808c567aa9",
+      "uid": "9742bec6-d488-471e-a7ed-234a34311796",
+      "name": "aynaapp.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:36.328Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a0",
+      "uid": "ac649293-878a-458f-85da-eeed3d2cd9a0",
+      "name": "aynahq.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:48.615Z",
+      "updatedAt": "2026-05-12T15:21:34.651Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344a86284dc808c567aa7",
+      "uid": "9563bc64-a581-4ac2-bb07-94108ee982d2",
+      "name": "aynahq.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.854Z",
+      "updatedAt": "2026-05-12T15:19:24.472Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344a86284dc808c567aa8",
+      "uid": "2f0ee8b6-150e-4c76-825d-f5a8fa407e21",
+      "name": "aynalab.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:35.743Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a1",
+      "uid": "14905385-f86c-4320-b7f6-2cc005abf9a3",
+      "name": "aynapro.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:20:08.984Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a9",
+      "uid": "5355f5ee-4a79-4f77-b9a9-5c51dcd9eac5",
+      "name": "aynapro.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:19:36.958Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a2f",
+      "uid": "e8843d18-7046-49da-9739-ff9d027ebfc9",
+      "name": "aynas.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:56.551Z",
+      "updatedAt": "2026-05-12T15:19:53.867Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e76284dc808c56841f",
+      "uid": "8bb9c8ca-bee1-41e7-b401-d28f4edf95a4",
+      "name": "aynna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:19:03.847Z",
+      "updatedAt": "2026-05-12T15:19:56.893Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344c86284dc808c567fa4",
+      "uid": "958b83e3-b49d-4d1b-8552-9c57142edcce",
+      "name": "getaayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:32.167Z",
+      "updatedAt": "2026-05-12T15:20:08.955Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344a86284dc808c567aab",
+      "uid": "2e667249-2f24-4512-b910-11c1396302b5",
+      "name": "getaayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:30.649Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a4",
+      "uid": "fb0169db-0e05-48b8-8f90-ae854eac85de",
+      "name": "getaena.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:21:34.657Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344c86284dc808c567fa5",
+      "uid": "7d4d3989-3d6c-4dca-8cd1-659922ce0224",
+      "name": "getaena.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:32.167Z",
+      "updatedAt": "2026-05-12T15:19:49.049Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a2d",
+      "uid": "52b580b8-160a-4c36-84ab-e467e1043201",
+      "name": "getaina.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:56.550Z",
+      "updatedAt": "2026-05-12T15:19:54.611Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344c86284dc808c567f9c",
+      "uid": "76947c21-fab1-40b5-8b03-473ea7831791",
+      "name": "getayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:32.166Z",
+      "updatedAt": "2026-05-12T15:19:26.121Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344c86284dc808c567f9d",
+      "uid": "b978cb42-a470-4a9b-be73-0a189ea7a163",
+      "name": "getaynaclub.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:32.166Z",
+      "updatedAt": "2026-05-12T15:21:34.646Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a7",
+      "uid": "61ffc60f-ad5d-4f32-9a9e-c756082626f4",
+      "name": "getaynaclub.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:21:25.594Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344c86284dc808c567fa3",
+      "uid": "c4f73ca0-f0bb-4724-8f5a-cbec322cc53c",
+      "name": "getaynagroup.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:32.167Z",
+      "updatedAt": "2026-05-12T15:20:08.990Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a2e",
+      "uid": "9b0e6cc3-d7f6-4df8-bc5c-7a9e15fda740",
+      "name": "getaynagroup.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:56.551Z",
+      "updatedAt": "2026-05-12T15:19:54.369Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a34",
+      "uid": "c42e927f-c17e-4fac-bd72-21604f8ee2c4",
+      "name": "getaynah.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:56.551Z",
+      "updatedAt": "2026-05-12T15:19:53.900Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344e76284dc808c568420",
+      "uid": "c2e2ed77-8198-4016-9b6a-622ee8ffff3d",
+      "name": "getaynah.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:19:03.847Z",
+      "updatedAt": "2026-05-12T15:19:54.414Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10c9",
+      "uid": "bca4b52b-51cf-43f3-8fa3-4b933547effe",
+      "name": "getaynahq.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:13.237Z",
+      "updatedAt": "2026-05-12T15:19:40.258Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344a86284dc808c567aaf",
+      "uid": "b4547d26-9058-413c-98a3-f0c022393792",
+      "name": "getaynahub.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:34.314Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344e76284dc808c56841c",
+      "uid": "85df2187-7863-4589-afbc-d88fe2add144",
+      "name": "getaynahub.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:19:03.846Z",
+      "updatedAt": "2026-05-12T15:19:53.871Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344c86284dc808c567fa2",
+      "uid": "ed6cbfa9-2154-4736-a324-09dd6b2dcd6e",
+      "name": "getaynaio.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:32.167Z",
+      "updatedAt": "2026-05-12T15:19:34.317Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10d0",
+      "uid": "d6f57353-f358-448e-b46a-0e521b133c5c",
+      "name": "getaynaio.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:13.238Z",
+      "updatedAt": "2026-05-12T15:19:33.526Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344c86284dc808c567fa0",
+      "uid": "404691b0-d5ee-4a76-9a3d-5bf0e4e33e18",
+      "name": "getaynalab.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:32.167Z",
+      "updatedAt": "2026-05-12T15:19:34.308Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a2b",
+      "uid": "9a912a7d-6001-4294-8347-eaae0211d7e7",
+      "name": "getaynalab.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:56.550Z",
+      "updatedAt": "2026-05-12T15:19:54.417Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a31",
+      "uid": "f862db6e-05b5-4c39-963a-fb57de43dba3",
+      "name": "getaynamedia.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:56.551Z",
+      "updatedAt": "2026-05-12T15:20:08.942Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10ce",
+      "uid": "ee5f7973-c3ea-4cd3-9771-1b71c264f476",
+      "name": "getaynamedia.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:13.238Z",
+      "updatedAt": "2026-05-12T15:19:49.506Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e76284dc808c56841d",
+      "uid": "28ab19b9-d061-4444-91e3-12a5fe760480",
+      "name": "getaynanow.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:19:03.846Z",
+      "updatedAt": "2026-05-12T15:20:08.948Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344c86284dc808c567f9f",
+      "uid": "884d63a1-728b-4164-8993-38477738bc25",
+      "name": "getaynanow.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:32.167Z",
+      "updatedAt": "2026-05-12T15:19:28.521Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a5",
+      "uid": "9015fdd6-be3f-49c8-949a-b08f44b2aee0",
+      "name": "getaynapro.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:20:08.975Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a33",
+      "uid": "68ae1727-2cb2-46ef-b8a3-81e64c3840b5",
+      "name": "getaynapro.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:56.551Z",
+      "updatedAt": "2026-05-12T15:19:53.818Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10d1",
+      "uid": "17a87eaf-311d-40ca-bbe8-9d7dd6a93873",
+      "name": "getaynas.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:13.238Z",
+      "updatedAt": "2026-05-12T15:20:08.939Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a32",
+      "uid": "5291b865-979c-48d6-8e25-3e78698cc286",
+      "name": "getaynas.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:56.551Z",
+      "updatedAt": "2026-05-12T15:19:56.003Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344c86284dc808c567fa1",
+      "uid": "96aa27d1-ef55-4202-b25d-9fb7c26afdb4",
+      "name": "getaynazone.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:32.167Z",
+      "updatedAt": "2026-05-12T15:20:08.981Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344c86284dc808c567f9e",
+      "uid": "3e502d91-1574-4190-b8d7-a335f85d971f",
+      "name": "getaynazone.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:32.166Z",
+      "updatedAt": "2026-05-12T15:19:34.049Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344a86284dc808c567aaa",
+      "uid": "c48625d8-f6f1-44bf-8f37-9f4f3f77708e",
+      "name": "getaynna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:22.174Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a30",
+      "uid": "ee2db878-76cf-434e-ac66-dc221d895636",
+      "name": "getgetayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:56.551Z",
+      "updatedAt": "2026-05-12T15:20:54.661Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344a86284dc808c567aad",
+      "uid": "2c6c7b58-bb90-42ff-9514-4e3552243ac6",
+      "name": "getgetayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:33.038Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10cf",
+      "uid": "e1996b99-e5e2-450f-8ca3-87beb683868f",
+      "name": "gettayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:13.238Z",
+      "updatedAt": "2026-05-12T15:19:52.430Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10ca",
+      "uid": "16e14220-5e58-4591-b4f8-c4b03396741c",
+      "name": "gogetayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:13.237Z",
+      "updatedAt": "2026-05-12T15:19:34.320Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344a86284dc808c567aae",
+      "uid": "ddc0ffd9-b6b3-421f-901b-766df9a8f2a4",
+      "name": "gogetayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:35.101Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344a86284dc808c567ab0",
+      "uid": "d50ad381-cb32-4907-a0e5-490c7644c999",
+      "name": "joingetayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:20:08.978Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a6",
+      "uid": "82bbeb90-9f3e-43cd-b431-e4d1cb46f4a4",
+      "name": "joingetayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:19:46.405Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344e064a2330a2cba9a2c",
+      "uid": "dc1ae56b-efe0-4712-9cfc-d853abb0985c",
+      "name": "mygetayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:56.550Z",
+      "updatedAt": "2026-05-12T15:20:08.945Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344a86284dc808c567aac",
+      "uid": "f7634aca-c1c8-40e6-8f52-1deeadba4df6",
+      "name": "mygetayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:00.855Z",
+      "updatedAt": "2026-05-12T15:19:37.487Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10d2",
+      "uid": "c4762387-49a0-4ec6-aa33-0ae546757dfb",
+      "name": "thegetayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:13.238Z",
+      "updatedAt": "2026-05-12T15:19:34.305Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a2",
+      "uid": "1c3ccbae-a96a-43a6-b9e0-14d09ca39991",
+      "name": "thegetayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:19:31.761Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10cb",
+      "uid": "0fd08e75-8daf-4c9e-8049-41ace711cd77",
+      "name": "trygetayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:13.237Z",
+      "updatedAt": "2026-05-12T15:20:08.952Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344d864a2330a2cba98a3",
+      "uid": "c4bc6ae4-8c4b-4419-a9ef-2445e72ad1d3",
+      "name": "trygetayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:18:48.616Z",
+      "updatedAt": "2026-05-12T15:19:43.374Z",
+      "propagated": false
+    },
+    {
+      "_id": "6a0344b547e75697e6bc10cc",
+      "uid": "7d351c44-f9a6-4ec7-9e1d-38bd0e134e4b",
+      "name": "usegetayna.com",
+      "status": "active",
+      "createdAt": "2026-05-12T15:18:13.237Z",
+      "updatedAt": "2026-05-12T15:20:08.987Z",
+      "propagated": true
+    },
+    {
+      "_id": "6a0344e76284dc808c56841e",
+      "uid": "8bba4a73-4014-4f61-847a-b62b6e04feec",
+      "name": "usegetayna.info",
+      "status": "not_connected",
+      "createdAt": "2026-05-12T15:19:03.846Z",
+      "updatedAt": "2026-05-12T15:19:54.860Z",
+      "propagated": false
+    }
+  ]
+}
