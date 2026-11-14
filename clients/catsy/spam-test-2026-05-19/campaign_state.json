@@ -1,0 +1,739 @@
+{
+  "campaign_id": 3355119,
+  "attach_response": {
+    "ok": true,
+    "result": [
+      {
+        "id": 177025560,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056483,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025561,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056482,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025562,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056481,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025563,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056480,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025564,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056479,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025565,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056478,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025566,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056477,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025567,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056476,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025568,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056475,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025569,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056474,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025570,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056473,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025571,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056472,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025572,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056471,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025573,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056470,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025574,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056469,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025575,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056468,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025576,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056467,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025577,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056465,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025578,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056464,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025579,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056463,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025580,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056460,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025581,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056458,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025582,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056456,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025583,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056455,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025584,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056453,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025585,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056450,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025586,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056448,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025587,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056446,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025588,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056440,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025589,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056437,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025590,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056436,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025591,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056435,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025592,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056434,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025593,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056430,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025594,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056426,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025595,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056425,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025596,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056424,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025597,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056422,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025598,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056421,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025599,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056420,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025600,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056417,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025601,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056414,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025602,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056413,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025603,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056412,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025604,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056411,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025605,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056410,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025606,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056409,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025607,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056407,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025608,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056404,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025609,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056402,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025610,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056401,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025611,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056399,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025612,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056398,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025613,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056397,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025614,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056396,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025615,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056394,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025616,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056391,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025617,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056390,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025618,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056389,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025619,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056388,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025620,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056387,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025621,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056385,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025622,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056383,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025623,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056381,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025624,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056380,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025625,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056379,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025626,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056378,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025627,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056377,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025628,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056376,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025629,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056372,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025630,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056370,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025631,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056369,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025632,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056368,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025633,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056367,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025634,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056366,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025635,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056361,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025636,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056360,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025637,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056359,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025638,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056358,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025639,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056357,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025640,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056356,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025641,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056355,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025642,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056354,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025643,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056353,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025644,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056352,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025645,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056351,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025646,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056349,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025647,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056347,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025648,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056344,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025649,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056343,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025650,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056342,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025651,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056340,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025652,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056339,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025653,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056338,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025654,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056337,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025655,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056336,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025656,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056335,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025657,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056334,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025658,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056333,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      },
+      {
+        "id": 177025659,
+        "email_campaign_id": 3355119,
+        "email_account_id": 11056332,
+        "updated_at": "2026-05-19T08:21:25.016Z",
+        "created_at": "2026-05-19T08:21:25.016Z"
+      }
+    ]
+  },
+  "sequence_response": {
+    "ok": true,
+    "data": {
+      "sequences": [
+        {
+          "seqNumber": 1,
+          "id": 8659765
+        }
+      ]
+    }
+  },
+  "settings_response": {
+    "error": "Invalid stop_lead_settings value - NEVER"
+  },
+  "leads_response": {
+    "statusCode": 400,
+    "error": "Bad Request",
+    "message": "\"settings.skip_community_bounce_list\" is not allowed",
+    "validation": {
+      "source": "body",
+      "keys": [
+        "settings.skip_community_bounce_list"
+      ]
+    }
+  },
+  "schedule_response": {
+    "ok": true
+  },
+  "status_response": {
+    "ok": true
+  }
+}
