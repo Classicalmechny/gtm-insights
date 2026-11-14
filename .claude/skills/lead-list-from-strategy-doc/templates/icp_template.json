@@ -1,0 +1,53 @@
+{
+  "client": "",
+  "campaign": "",
+  "geographics": {
+    "countries": ["United States"]
+  },
+  "firmographics": {
+    "industries": [],
+    "industries_exclude": [],
+    "employee_count_min": null,
+    "employee_count_max": null,
+    "tech_stack_includes": [],
+    "tech_stack_excludes": [],
+    "revenue_band_annual_usd": { "min": null, "max": null }
+  },
+  "persona": {
+    "titles": [
+      "Founder", "Co-Founder", "Co Founder", "Cofounder",
+      "CEO", "Chief Executive Officer",
+      "Owner", "President", "Principal", "Managing Director",
+      "Head of Brand", "Brand Director", "VP of Brand", "VP Brand",
+      "Creative Director", "Head of Creative", "VP Creative",
+      "Design Director", "Art Director",
+      "Head of E-commerce", "Head of Ecommerce",
+      "Head of DTC", "Head of D2C", "Head of Direct to Consumer",
+      "VP E-commerce", "Director of E-commerce", "Director of DTC",
+      "Director of Marketing",
+      "Chief Marketing Officer", "CMO", "Chief Brand Officer"
+    ],
+    "title_exclusions": [
+      "Assistant", "Personal Brand Strategist", "Coordinator",
+      "Associate", "Intern", "Trainee", "Former", "Ex-", "Previous"
+    ],
+    "seniority": ["c_suite", "founder", "owner"],
+    "departments": [],
+    "dm_cap_per_company": null
+  },
+  "company": {
+    "industry": "",
+    "storefront_platform": [],
+    "categories_niche": [],
+    "must_have": []
+  },
+  "personalization_variables": {
+    "first_name": "from contact source",
+    "company_name": "from source",
+    "category": "auto-detected niche label",
+    "storefront_url": "https://{domain}",
+    "drop_cadence": "from Storeleads products_created_30/90"
+  },
+  "campaigns": [],
+  "compulsory_filters": []
+}
